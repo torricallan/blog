@@ -10,7 +10,7 @@ Torri Callan
 :::
 
 ::: {.landing-tagline}
-[Your one-liner here: what you do]
+I write about sports performance, training science, and the statistics that connect them.
 :::
 
 [Get in touch](contact.qmd)
