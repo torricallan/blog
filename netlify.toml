@@ -2,6 +2,6 @@
   publish = "_site"
   command = """
     curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb && \
-    dpkg -x quarto-linux-amd64.deb . && \
-    ./opt/quarto/bin/quarto render
+    dpkg -x quarto-linux-amd64.deb /tmp/quarto && \
+    /tmp/quarto/opt/quarto/bin/quarto render
   """
