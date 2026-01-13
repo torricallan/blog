@@ -1,0 +1,28 @@
+---
+title: ""
+pagetitle: "Torri Callan"
+toc: false
+page-layout: article
+---
+
+::: {.landing-name}
+Torri Callan
+:::
+
+::: {.landing-tagline}
+[Your one-liner here: what you do]
+:::
+
+[Get in touch](contact.qmd)
+
+::: {.featured-posts}
+## Recent Writing
+
+::: {.post-link}
+### [Statistical Models of Training Periodisation](posts/periodisation-statistical-modelling.qmd)
+::: {.date}
+January 2026
+:::
+:::
+
+:::

@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Torri Callan"
+  site-url: https://torricallan.com.au
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: writing.qmd
+        text: Writing
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    center: "© 2025 Torri Callan"
+
+format:
+  html:
+    theme:
+      light: custom.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    highlight-style: github

@@ -1,0 +1,137 @@
+---
+title: "Statistical Models of Training Periodisation"
+subtitle: "Plenty of promise but no tangible success"
+author: "Torri Callan"
+date: 2026-01-13
+categories: [sports science, statistics, periodisation]
+description: "The fitness-fatigue model has theoretical elegance but limited practical utility. Recent validation studies reveal fundamental identifiability problems, yet clear opportunities exist for methodological advancement."
+draft: false
+---
+
+The fitness-fatigue model remains the dominant mathematical framework for predicting athletic performance from training loads---yet after five decades, these models have achieved only limited adoption among practitioners. Why? Recent rigorous validation studies reveal fundamental identifiability problems that prevent reliable prospective prediction. This gap between theoretical elegance and practical utility defines the current state of the field and presents clear opportunities for methodological innovation.
+
+The core insight of impulse-response modelling---that training produces antagonistic fitness and fatigue responses decaying at different rates---has proven conceptually valuable, influencing everything from TrainingPeaks software to Olympic tapering strategies. However, the mathematical separation of fitness and fatigue components may be statistically illusory, with a landmark 2025 study in *Scientific Reports* demonstrating that the fatigue component adds no predictive value beyond what simpler fitness-only models achieve. Understanding both the historical foundations and these recent critiques is essential for developing approaches that genuinely advance the field rather than repeating known limitations.
+
+## The theoretical foundation
+
+Banister and colleagues established the first mathematical model of training adaptation. They conceptualise performance as the net result of two processes:
+
+- Training increases fitness which accumulates slowly
+- Training induces fatigue which dissipates quickly
+
+This is recognisable as the supercompensation principle. As athletes train they accumulate fatigue whilst also getting faster. Strategic reductions in fatigue allow for larger realisations in performance, corresponding to what coaches naturally recognise as a tapering strategy.
+
+The model is formalised as:
+
+$$p(t) = p_0 + k_1 \sum w(s)e^{-(t-s)/\tau_1} - k_2 \sum w(s)e^{-(t-s)/\tau_2}$$
+
+Here, $p(t)$ represents modelled performance, $w(s)$ is training impulse on day $s$, $\tau_1$ and $\tau_2$ are time constants for fitness and fatigue decay (typically 42--50 days and 7--15 days respectively), and $k_1$, $k_2$ are magnitude coefficients. The key constraint is that $k_2 > k_1$ (fatigue magnitude exceeds fitness) while $\tau_1 > \tau_2$ (fitness decays more slowly).
+
+Whilst simple---first attempts always are---the theoretical approach captures the core dynamic that drives periodisation models. Performance and fatigue operate on different time scales. Thoughtful modulation of training load leads to accumulation and realisation of performance with appropriate (for the macrocycle) amounts of fatigue.
+
+Interestingly, the raw data displayed in Banister's original paper (following a single university-level 100m swimmer) showed the weekly progression of times over the course of two seasons, and the yearly progression of Personal Bests over eight seasons of training. The variation of performance in an earlier season was 18 seconds---the swimmer improved from 65 to 57 seconds, but not before dropping to 75 seconds mid-season. In a season 3 years later, they improved from 56 to 55 seconds, but only getting as slow as 58 seconds. What strikes me about this data is that slower athletes have less stability in their performance, making them both more susceptible to fatigue and less able to produce fast times. The plot of yearly progression shows a C-shaped progression---improvements of 3--4 seconds in early years plateau to the 56--57 mark in later years.
+
+## Increasing model complexity: improvements and challenges
+
+The original model assumed (amongst a suite of simplifying assumptions) that each training unit contributes equally given past training history. Thierry Busso introduced a time-varying fatigue where $k_2(i)$ depends on accumulated recent training:
+
+$$k_2(i) = k_3 \sum w(j)e^{-(i-1-j)/\tau_3}$$
+
+This captures the physiological reality that fatigue compounds when successive hard training days are sustained---a fifth parameter, $\tau_3$, controls this "memory" effect.
+
+Perl introduced the **PerPot (Performance-Potential) metamodel**, which incorporated nonlinear dynamics, overtraining effects, and atrophy components. Pfeiffer extended this work with preload concepts and Kalman filter integration, treating the fitness-fatigue model as a linear time-variant state-space system amenable to real-time updating. These contributions emphasised simulation and optimisation rather than pure prediction, a point we'll revisit soon.
+
+Anyone familiar with concepts in statistical and mathematical modelling can see how these models might be extended---nonlinear training impulses with varying functional forms, parameters that evolve over time, different functional forms for fatigue responses and so on.
+
+## Validation reveals a troubling gap between fit and prediction
+
+The critical distinction between retrospective fit (how well a model describes historical data) and prospective prediction (how well it forecasts future performance) defines one of the central challenges of this field.
+
+Hellard and colleagues' 2006 study at INSEP (the French National Institute of Sport) provides the most rigorous statistical analysis of model limitations. Working with 9 international swimmers over a full season, they achieved model fits of $R^2 = 0.79 \pm 0.13$---but bootstrap analysis (a statistical resampling technique) reveals disturbingly wide confidence intervals. The parameter $t_n$ (time to recover performance) was estimated at 19 days with 95% CI of 7--35 days, while $t_g$ (time to peak) was 43 days (CI: 25--61 days).
+
+More fundamentally, they demonstrated near-perfect correlation between $\tau_1$ and $\tau_2$ estimates ($r = 0.99$), indicating that these supposedly distinct physiological parameters cannot be reliably separated statistically---the model is **ill-conditioned**. In statistical terms, this means the model is *structurally unidentifiable*: multiple parameter combinations produce identical predictions, making it impossible to recover "true" values regardless of data quantity.
+
+Busso's own validation work used 20 weeks of training data to predict subsequent 8-week and full-season performance. Mean absolute percentage errors of 2.02 ± 0.65% and 2.69 ± 1.23% might seem acceptable, but at elite levels, these errors exceed meaningful performance differences (the mean gap between gold and 8th place at the Athens Olympics was only 2.16 ± 0.75%). Busso concluded that "ability to predict future performance from past data was not satisfactory for individual training planning."
+
+The most damning recent evidence comes from Marchal et al.'s 2025 paper in *Scientific Reports*, applying rigorous Bayesian analysis with biologically meaningful priors. They found that adding the fatigue component significantly improved goodness-of-fit (p<0.001) but **did not improve predictive ability** (p>0.40)---a textbook overfitting pattern. Only 1--4 of 10 Markov chains (the sampling algorithm used in Bayesian inference) converged, with non-converging chains showing "mirror behaviour" where $\tau_G$ and $\tau_H$ take nearly identical values, similar to convergence issues typically seen in finite mixture models.
+
+In their own words: "the FFM presents major dysfunctions that prevents its use for predictive purposes" and "One may be tempted to use FFM to support the design of athletic training programs; these conclusions warn us against this practice."
+
+### The normative implications are equally problematic
+
+Beyond prediction failures, even the *prescriptive* implications of these models are problematic. Ceddia et al. investigated the optimal training implied by the original Banister model and inspired modifications in a recent preprint.[^ceddia] Based on numerous simulations (maximising performance under the Banister model is a linear programming optimisation task), they conjecture that the ideal training load is binary: train at maximum possible intensity, or don't train at all. This is clearly nonsensical from a practical standpoint.
+
+[^ceddia]: Ceddia, Bondell & Taylor (2025). "Mathematical Modelling and Optimisation of Athletic Performance: Tapering and Periodisation." arXiv:2505.20859. This preprint is from the University of Melbourne and awaits peer review, but the mathematical analysis is sound and worth engaging with.
+
+The Busso model encounters an optimisation loophole. Since the fatigue magnitude $k_2(i)$ varies depending on the recent history of training, we can make this arbitrarily small by simply waiting long enough from the last training impulse. Then, since the fatigue magnitude can be made arbitrarily small, we can theoretically have an arbitrarily large training impulse with arbitrarily large performance improvements.
+
+To get an FFM to display nuanced tapering strategies and periodisation, Ceddia et al. propose modifications including:
+
+- A fitness magnitude with diminishing returns on increasing training impulse
+- Fatigue reduces not just the quantity of training but also the effectiveness of training
+- Large training impulses produce a performance change with a slower decay than smaller training impulses
+
+Mathematically, this involves introducing exponential, power-law and logistic type decay functional forms to the fitness and fatigue components. I don't think this is so bad! Statistical modelling always involves choices of these types. However, it does make model configuration challenging (see the Media Mix Modelling space for examples of how this plays out in practice).
+
+## Simpler load metrics achieve practical adoption despite theoretical limitations
+
+While impulse-response models remain primarily academic, simpler training load quantification methods have achieved widespread practical adoption. Understanding these methods is essential because they both inform and connect to formal modelling attempts.
+
+**Training Impulse (TRIMP)** was developed by Banister himself as the input variable for his model. The original formula multiplies session duration by heart rate reserve and an exponential weighting factor derived from the HR-lactate relationship ($y = 0.64 \times e^{1.92 \times \Delta HR}$ for males). Variants proliferated:
+
+- Sally Edwards' zone-based TRIMP (1993) used arbitrary integer coefficients; Alejandro Lucia's threshold-based version (2003) anchored zones to individually-determined ventilatory thresholds
+- Vincenzo Manzi's **individualised TRIMP** (iTRIMP, 2009) derived weighting factors from each athlete's HR-lactate curve. Manzi's validation showed iTRIMP significantly correlated with performance changes ($r = 0.77$--$0.87$ for 5km and 10km times), demonstrating that individualisation substantially improves dose-response relationships.
+
+**Session-RPE**, developed by Carl Foster, took a radically simpler approach: multiply session duration (minutes) by perceived exertion (0--10 scale) collected 20--30 minutes post-exercise. Despite (or perhaps because of) its simplicity, session-RPE achieved remarkable validation success, with correlations of $r = 0.75$--$0.90$ against HR-based methods and adoption across soccer, basketball, swimming, rugby, and numerous other sports. Foster's derived metrics of **training monotony** (weekly mean ÷ standard deviation) and **training strain** (weekly load × monotony) provide practitioners with intuitive overtraining indicators.
+
+**The Acute:Chronic Workload Ratio (ACWR)**, popularised by Tim Gabbett from 2014 onwards, attempted to operationalise the fitness-fatigue concept for injury prevention. The ratio of recent (typically 7-day) to longer-term (typically 28-day) workload was proposed as an injury risk indicator, with a "sweet spot" of 0.8--1.3 associated with reduced risk. Gabbett's "training-injury prevention paradox"---that higher chronic workloads protect against injury by building resilience to load spikes---became influential in team sports.
+
+However, ACWR has faced devastating methodological criticism. Franco Impellizzeri, Lorenzo Lolli, and colleagues demonstrated that mathematical coupling between numerator and denominator creates spurious correlations, that replacing actual chronic workload with random numbers produces similar injury associations, and that the same ACWR value can arise from vastly different workload combinations with entirely different implications. In their words: **"there is no evidence supporting the use of ACWR in training-load-management systems."** This cautionary tale illustrates how intuitive metrics can gain widespread adoption despite fundamental statistical flaws.
+
+I believe this is why foundational modelling approaches still have promise---despite the many challenges. Univariate and unidimensional measures can only capture so much of the dynamics we believe to be true about training and physiology. We still must weigh this against the clear operational benefits (and interpretability) of simple measures.
+
+Consider the implementation in TrainingPeaks of the Performance Management Chart, using fixed time constants of 42 days for Chronic Training Load (CTL, analogous to fitness) and 7 days for Acute Training Load (ATL, analogous to fatigue). Training Stress Balance (TSB = CTL - ATL) provides a "form" indicator rather than an absolute performance predictor.
+
+This implementation deliberately sidesteps the parameter estimation problem by using population defaults rather than individual fitting. TrainingPeaks explicitly states TSB is **"not a predictor of performance but a measure of how adapted an athlete is to their training load."** Practical guidelines emerged: professional cyclists target CTL of 90--150+, masters athletes 75--100, with race readiness indicated by TSB in the +10 to +30 range. Platforms like WKO5, Xert, Golden Cheetah, and Runalyze offer similar analytics with varying sophistication.
+
+This pragmatic retreat from the original modelling ambition---in my view---serves to show the conceptual value of the fitness-fatigue paradigm rather than undermine it. The widespread adoption among endurance athletes further corroborates this. It should give us hope that a solution fitting the original intent of Banister and co is possible.
+
+### Where the models have proven valuable: tapering
+
+Despite their predictive limitations, FFMs have made genuine contributions to understanding tapering. Iñigo Mujika's extensive research programme---spanning elite swimmers, triathletes, and cyclists---used mathematical modelling to derive practical tapering guidelines. His 1996 study with Busso modelled responses to training and taper in competitive swimmers, and his 2007 meta-analysis established that a 2-week taper with 41--60% volume reduction and maintained intensity produces performance improvements of approximately 3% (range 0.5--6%). These model-derived insights have directly influenced Olympic preparation strategies across multiple sports.
+
+The key insight is that FFMs work better for *understanding dynamics* than for *precise prediction*. They revealed that progressive tapers outperform step reductions, that intensity maintenance is critical, and that optimal taper duration depends on prior training load. This conceptual contribution is real, even as the quantitative precision remains elusive.
+
+## Parameter estimation remains the fundamental barrier
+
+The limited adoption of formal models ultimately traces to **parameter estimation challenges** that make them impractical for real-world use.
+
+**Data requirements are prohibitive.** Proper individual model fitting requires dense performance sampling (multiple measurements per week over several months) with consistent training load quantification. Hellard et al. estimated that models with 6 parameters would need approximately 90 performance observations for stable estimation ("totally unworkable under real sporting conditions.") Most athletes compete only a few times per season, and invasive testing cannot be repeated frequently without affecting training.
+
+**Individual variability is massive.** Literature values for time constants span enormous ranges: $\tau_1$ from 4--51 days, $\tau_2$ from 4--74 days. The HERITAGE Study and related research on training response heterogeneity shows that significant proportions of individuals show no improvement---or adverse responses---to standardised training. Within-subject variability compounds this: repeat intervention studies show individual responses to identical training protocols are often inconsistent across time periods.
+
+**Parameters are not stable over time.** As athletes' training history and fitness levels evolve, their response characteristics change. Time-varying parameter models (Busso, 1997) and Kalman filter approaches (Kolossa et al., 2017) attempt to address this through continuous updating, but this adds complexity and requires even more data.
+
+**Technical barriers exclude practitioners.** Global optimisation techniques, Bayesian MCMC (Markov Chain Monte Carlo---the computational method for fitting Bayesian models), and state-space modelling require programming expertise unavailable in typical coaching contexts. Vermeire et al.'s 2022 commentary explicitly acknowledges that "coaches in the field do not always have the possibility, or the means, to infer such a model fit." The gap between research methodology and coaching toolkits remains substantial. This also points to a need for a commercial solution for coaches.
+
+## Clear opportunities exist for methodological advancement
+
+Because of these limitations, there's a clear opportunity for novel methodological contributions. Several things need to become standardised practice, as they are in more mature statistical fields.
+
+**Cross-validation remains rare.** Marchal et al. noted that "FFM and derivative models are scarcely challenged in cross-validated studies." Most research reports retrospective fit rather than out-of-sample prediction performance. Establishing standardised cross-validation protocols for time-series training data would provide more honest assessment of model utility and enable meaningful comparison across approaches.
+
+This is methodologically tricky---training data has temporal structure (you can't randomly shuffle observations), sample sizes are small (one athlete = one time series), and autocorrelation violates independence assumptions that many standard methods require. But other fields have developed solutions: blocked cross-validation, time-series-specific metrics like rolling-origin evaluation, and hierarchical approaches that pool across individuals. Sports science should adopt these.
+
+**Fitness-only models deserve reconsideration.** Given the evidence that fatigue components add complexity without improving prediction, simpler one-component models may offer better bias-variance tradeoffs for practical application. These are not affected by the structural ill-conditioning from antagonistic components and can be more robustly estimated from limited data.
+
+**Multivariate approaches remain unexplored.** Current FFMs are fundamentally univariate: single training input, single performance output. Athletic performance depends on multiple training modalities (aerobic, anaerobic, strength, technical), is modulated by contextual factors (sleep, nutrition, psychological stress), and manifests across multiple performance dimensions. Multivariate extensions incorporating wellness, sleep, and nutrition data as model inputs, and predicting multiple performance markers, represent a natural evolution.
+
+**Hierarchical Bayesian models** could pool information across athletes to improve parameter estimation for individuals with limited data. Rather than fitting each athlete independently, hierarchical approaches can "borrow strength" from population-level patterns while allowing individual deviations. This is particularly relevant for sports where the population of elite athletes is small but likely shares underlying response characteristics.
+
+**Hybrid approaches combining mechanistic models with machine learning** offer a middle path. Recent work by Imbach et al. (2022) showed that ensemble methods stacking FFM predictions with ML models significantly outperformed either approach alone. The key insight: let the FFM provide interpretable structure while ML captures residual patterns the mechanistic model misses.
+
+**Improved uncertainty quantification** would make models more useful in practice. Coaches need to know not just the point prediction but whether a recommendation is highly certain or essentially a guess. Propagating parameter uncertainty through to performance forecasts and distinguishing measurement error from genuine biological variability would support more informed decision-making.
+
+Finally, I think that training plans using a model-driven approach would need to be re-thought from periodisation first principles. If an athlete's training becomes truly adaptive based on a model prescription, the need for planning cycles (macro, meso and micro) becomes obsolete. However, so then does the safety of these cycles disappear---no longer is an athlete afforded the opportunity to develop more general or more robust physiological characteristics unless the model is provided with constraints regarding physiological laws of accommodation and adaptation. A successful statistical model that governs periodisation will need to be developed with a unique and fresh appraisal of periodisation theory and application.
+
+If we succeed, this will be powerful! The promise of a training plan that fully understands an athlete's unique physiology, and utilises it to best effect is too good to let go of.

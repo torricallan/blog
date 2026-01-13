@@ -1,0 +1,23 @@
+---
+title: "About"
+toc: false
+page-layout: article
+---
+
+::: {.about-section}
+## Professional background
+
+[Your professional background here: PhD in statistics, Bayesian methods, experience in data science, etc.]
+:::
+
+::: {.about-section}
+## Athletic background
+
+[Your athletic background here: sprint kayaking, running, etc.]
+:::
+
+::: {.about-section}
+## Current focus
+
+[Your current focus here: sports performance analytics, adaptive periodisation, consulting work, etc.]
+:::

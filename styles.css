@@ -1,0 +1,84 @@
+/* Layout */
+.content,
+.quarto-title,
+#quarto-content > * {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Wide figures for visualisations */
+.wide-figure,
+.quarto-figure-center.wide {
+  max-width: 950px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Landing page specific */
+.landing-name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.landing-tagline {
+  font-size: 1.25rem;
+  color: #44403c;
+  margin-bottom: 2rem;
+}
+
+.featured-posts {
+  margin-top: 3rem;
+}
+
+.featured-posts h2 {
+  font-size: 1.25rem;
+  color: #78716c;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.post-link {
+  display: block;
+  padding: 1rem 0;
+  border-bottom: 1px solid #d6d3d1;
+}
+
+.post-link:last-child {
+  border-bottom: none;
+}
+
+.post-link h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.125rem;
+}
+
+.post-link .date {
+  font-size: 0.875rem;
+  color: #78716c;
+}
+
+/* Blog listing */
+.quarto-listing {
+  margin-top: 2rem;
+}
+
+/* About page */
+.about-section {
+  margin-bottom: 2rem;
+}
+
+/* Contact page */
+.contact-email {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.contact-email a {
+  color: #c2410c;
+}

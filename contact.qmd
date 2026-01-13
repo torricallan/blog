@@ -1,0 +1,11 @@
+---
+title: "Contact"
+toc: false
+page-layout: article
+---
+
+The best way to reach me is by email.
+
+::: {.contact-email}
+[hello@torricallan.com.au](mailto:hello@torricallan.com.au)
+:::
