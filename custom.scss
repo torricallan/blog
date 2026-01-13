@@ -67,6 +67,15 @@ a {
 
 .navbar-brand {
   font-weight: 600;
+  color: $body-color !important;
+}
+
+.navbar-nav .nav-link {
+  color: $body-color !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: $link-color !important;
 }
 
 // Footer styling
