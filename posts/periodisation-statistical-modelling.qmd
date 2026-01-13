@@ -59,9 +59,7 @@ In their own words: "the FFM presents major dysfunctions that prevents its use f
 
 ### The normative implications are equally problematic
 
-Beyond prediction failures, even the *prescriptive* implications of these models are problematic. Ceddia et al. investigated the optimal training implied by the original Banister model and inspired modifications in a recent preprint.[^ceddia] Based on numerous simulations (maximising performance under the Banister model is a linear programming optimisation task), they conjecture that the ideal training load is binary: train at maximum possible intensity, or don't train at all. This is clearly nonsensical from a practical standpoint.
-
-[^ceddia]: Ceddia, Bondell & Taylor (2025). "Mathematical Modelling and Optimisation of Athletic Performance: Tapering and Periodisation." arXiv:2505.20859. This preprint is from the University of Melbourne and awaits peer review, but the mathematical analysis is sound and worth engaging with.
+Beyond prediction failures, even the *prescriptive* implications of these models are problematic. Ceddia et al. (2025) investigated the optimal training implied by the original Banister model and inspired modifications in a recent preprint. Based on numerous simulations (maximising performance under the Banister model is a linear programming optimisation task), they conjecture that the ideal training load is binary: train at maximum possible intensity, or don't train at all. This is clearly nonsensical from a practical standpoint.
 
 The Busso model encounters an optimisation loophole. Since the fatigue magnitude $k_2(i)$ varies depending on the recent history of training, we can make this arbitrarily small by simply waiting long enough from the last training impulse. Then, since the fatigue magnitude can be made arbitrarily small, we can theoretically have an arbitrarily large training impulse with arbitrarily large performance improvements.
 
@@ -173,3 +171,5 @@ Perl, J. (2001). PerPot: A metamodel for simulation of load performance interact
 Pfeiffer, M. (2008). Modeling the relationship between training and performance—a comparison of two antagonistic concepts. *International Journal of Computer Science in Sport*, 7(2), 13–32.
 
 Vermeire, K. M., Van de Casteele, F., Gosseries, M., Bourgois, J. G., & Boone, J. (2022). The fitness-fatigue model: past, present and future. *International Journal of Sports Physiology and Performance*, 17(7), 1150–1152.
+
+Ceddia, G., Bondell, H., & Taylor, J. (2025). Mathematical modelling and optimisation of athletic performance: tapering and periodisation. *arXiv preprint*, arXiv:2505.20859.
