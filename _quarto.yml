@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Torri Callan"
+  title: ""
   site-url: https://torricallan.com.au
   navbar:
     left:
@@ -16,7 +16,7 @@ website:
       - href: contact.qmd
         text: Contact
   page-footer:
-    center: "© 2025 Torri Callan"
+    center: "© 2026 Torri Callan"
 
 format:
   html:
@@ -28,3 +28,4 @@ format:
     code-fold: true
     code-tools: false
     highlight-style: github
+    html-math-method: katex

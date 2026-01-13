@@ -13,8 +13,6 @@ Torri Callan
 I write about sports performance, training science, and the statistics that connect them.
 :::
 
-[Get in touch](contact.qmd)
-
 ::: {.featured-posts}
 ## Recent Writing
 
@@ -23,6 +21,9 @@ I write about sports performance, training science, and the statistics that conn
 ::: {.date}
 January 2026
 :::
+A survey of how researchers have modelled training load, periodisation, and adaptation — and where the gaps are.
 :::
 
 :::
+
+[Get in touch](contact.qmd)

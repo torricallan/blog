@@ -1,6 +1,6 @@
 ---
 title: "Statistical Models of Training Periodisation"
-subtitle: "Plenty of promise but no tangible success"
+subtitle: "Theoretical elegance, practical limitations — and a path forward"
 author: "Torri Callan"
 date: 2026-01-13
 categories: [sports science, statistics, periodisation]
@@ -8,9 +8,9 @@ description: "The fitness-fatigue model has theoretical elegance but limited pra
 draft: false
 ---
 
-The fitness-fatigue model remains the dominant mathematical framework for predicting athletic performance from training loads---yet after five decades, these models have achieved only limited adoption among practitioners. Why? Recent rigorous validation studies reveal fundamental identifiability problems that prevent reliable prospective prediction. This gap between theoretical elegance and practical utility defines the current state of the field and presents clear opportunities for methodological innovation.
+The fitness-fatigue model remains the canonical reference point for predicting athletic performance from training loads---yet after five decades, these models have achieved only limited adoption among practitioners. Why? Recent rigorous validation studies reveal fundamental identifiability problems that prevent reliable prospective prediction. This gap between theoretical elegance and practical utility defines the current state of the field and presents clear opportunities for methodological innovation.
 
-The core insight of impulse-response modelling---that training produces antagonistic fitness and fatigue responses decaying at different rates---has proven conceptually valuable, influencing everything from TrainingPeaks software to Olympic tapering strategies. However, the mathematical separation of fitness and fatigue components may be statistically illusory, with a landmark 2025 study in *Scientific Reports* demonstrating that the fatigue component adds no predictive value beyond what simpler fitness-only models achieve. Understanding both the historical foundations and these recent critiques is essential for developing approaches that genuinely advance the field rather than repeating known limitations.
+The core insight of impulse-response modelling---that training produces antagonistic fitness and fatigue responses decaying at different rates---has proven conceptually valuable, influencing everything from TrainingPeaks software to Olympic tapering strategies. However, the mathematical separation of fitness and fatigue components may be statistically illusory, with a [landmark 2025 study in *Scientific Reports*](https://doi.org/10.1038/s41598-025-85858-x) demonstrating that the fatigue component adds no predictive value beyond what simpler fitness-only models achieve. Understanding both the historical foundations and these recent critiques is essential for developing approaches that genuinely advance the field rather than repeating known limitations.
 
 ## The theoretical foundation
 
@@ -133,6 +133,10 @@ This is methodologically tricky---training data has temporal structure (you can'
 Finally, I think that training plans using a model-driven approach would need to be re-thought from periodisation first principles. If an athlete's training becomes truly adaptive based on a model prescription, the need for planning cycles (macro, meso and micro) becomes obsolete. However, so then does the safety of these cycles disappear---no longer is an athlete afforded the opportunity to develop more general or more robust physiological characteristics unless the model is provided with constraints regarding physiological laws of accommodation and adaptation. A successful statistical model that governs periodisation will need to be developed with a unique and fresh appraisal of periodisation theory and application.
 
 If we succeed, this will be powerful! The promise of a training plan that fully understands an athlete's unique physiology, and utilises it to best effect is too good to let go of.
+
+---
+
+*Torri Callan is a data scientist with a PhD in statistics and a background in elite sport. [Read more about the author](/about.qmd).*
 
 ## References
 
