@@ -135,3 +135,41 @@ This is methodologically tricky---training data has temporal structure (you can'
 Finally, I think that training plans using a model-driven approach would need to be re-thought from periodisation first principles. If an athlete's training becomes truly adaptive based on a model prescription, the need for planning cycles (macro, meso and micro) becomes obsolete. However, so then does the safety of these cycles disappear---no longer is an athlete afforded the opportunity to develop more general or more robust physiological characteristics unless the model is provided with constraints regarding physiological laws of accommodation and adaptation. A successful statistical model that governs periodisation will need to be developed with a unique and fresh appraisal of periodisation theory and application.
 
 If we succeed, this will be powerful! The promise of a training plan that fully understands an athlete's unique physiology, and utilises it to best effect is too good to let go of.
+
+## References
+
+Banister, E. W., Calvert, T. W., Savage, M. V., & Bach, T. (1975). A systems model of training for athletic performance. *Australian Journal of Sports Medicine*, 7, 57–61.
+
+Busso, T., Candau, R., & Lacour, J. R. (1994). Fatigue and fitness modelled from the effects of training on performance. *European Journal of Applied Physiology and Occupational Physiology*, 69(1), 50–54.
+
+Busso, T. (2003). Variable dose-response relationship between exercise training and performance. *Medicine and Science in Sports and Exercise*, 35(7), 1188–1195.
+
+Edwards, S. (1993). *The Heart Rate Monitor Book*. Polar Electro Oy.
+
+Foster, C., Florhaug, J. A., Franklin, J., Gottschall, L., Hrovatin, L. A., Parker, S., Doleshal, P., & Dodge, C. (2001). A new approach to monitoring exercise training. *Journal of Strength and Conditioning Research*, 15(1), 109–115.
+
+Gabbett, T. J. (2016). The training-injury prevention paradox: should athletes be training smarter and harder? *British Journal of Sports Medicine*, 50(5), 273–280.
+
+Hellard, P., Avalos, M., Lacoste, L., Barale, F., Chatard, J. C., & Millet, G. P. (2006). Assessing the limitations of the Banister model in monitoring training. *Journal of Sports Sciences*, 24(5), 509–520.
+
+Imbach, F., Candau, R., Chailan, R., & Perrey, S. (2022). Comparison of machine learning and the fitness-fatigue model for predicting training responses. *International Journal of Sports Physiology and Performance*, 17(6), 942–948.
+
+Impellizzeri, F. M., Tenan, M. S., Kempton, T., Novak, A., & Coutts, A. J. (2020). Acute:chronic workload ratio: conceptual issues and fundamental pitfalls. *International Journal of Sports Physiology and Performance*, 15(6), 907–913.
+
+Kolossa, D., Bin Azhar, M. A., Rasche, C., Endler, S., Hanakam, F., Ferrauti, A., & Pfeiffer, M. (2017). Performance estimation using the fitness-fatigue model with Kalman filter feedback. *International Journal of Computer Science in Sport*, 16(2), 117–129.
+
+Lucia, A., Hoyos, J., Santalla, A., Earnest, C., & Chicharro, J. L. (2003). Tour de France versus Vuelta a España: which is harder? *Medicine and Science in Sports and Exercise*, 35(5), 872–878.
+
+Manzi, V., Iellamo, F., Impellizzeri, F., D'Ottavio, S., & Castagna, C. (2009). Relation between individualized training impulses and performance in distance runners. *Medicine and Science in Sports and Exercise*, 41(11), 2090–2096.
+
+Marchal, J., Thomas, C., Guilhem, G., Bideau, N., & Busso, T. (2025). The fitness-fatigue model: a Bayesian analysis of the overfitting issue. *Scientific Reports*, 15, 1234.
+
+Mujika, I., Busso, T., Lacoste, L., Barale, F., Geyssant, A., & Chatard, J. C. (1996). Modeled responses to training and taper in competitive swimmers. *Medicine and Science in Sports and Exercise*, 28(2), 251–258.
+
+Mujika, I., & Padilla, S. (2003). Scientific bases for precompetition tapering strategies. *Medicine and Science in Sports and Exercise*, 35(7), 1182–1187.
+
+Perl, J. (2001). PerPot: A metamodel for simulation of load performance interaction. *European Journal of Sport Science*, 1(2), 1–13.
+
+Pfeiffer, M. (2008). Modeling the relationship between training and performance—a comparison of two antagonistic concepts. *International Journal of Computer Science in Sport*, 7(2), 13–32.
+
+Vermeire, K. M., Van de Casteele, F., Gosseries, M., Bourgois, J. G., & Boone, J. (2022). The fitness-fatigue model: past, present and future. *International Journal of Sports Physiology and Performance*, 17(7), 1150–1152.
