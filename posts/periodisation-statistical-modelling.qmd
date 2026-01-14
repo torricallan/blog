@@ -10,7 +10,7 @@ draft: false
 
 The fitness-fatigue model remains the canonical reference point for predicting athletic performance from training loads---yet after five decades, these models have achieved only limited adoption among practitioners. Why? Recent rigorous validation studies reveal fundamental identifiability problems that prevent reliable prospective prediction. This gap between theoretical elegance and practical utility defines the current state of the field and presents clear opportunities for methodological innovation.
 
-The core insight of impulse-response modelling---that training produces antagonistic fitness and fatigue responses decaying at different rates---has proven conceptually valuable, influencing everything from TrainingPeaks software to Olympic tapering strategies. However, the mathematical separation of fitness and fatigue components may be statistically illusory, with a [landmark 2025 study in *Scientific Reports*](https://doi.org/10.1038/s41598-025-85858-x) demonstrating that the fatigue component adds no predictive value beyond what simpler fitness-only models achieve. Understanding both the historical foundations and these recent critiques is essential for developing approaches that genuinely advance the field rather than repeating known limitations.
+The core insight of impulse-response modelling---that training produces antagonistic fitness and fatigue responses decaying at different rates---has proven conceptually valuable, influencing everything from TrainingPeaks software to Olympic tapering strategies. However, the mathematical separation of fitness and fatigue components may be statistically illusory, with a [landmark 2025 study in *Scientific Reports*](https://doi.org/10.1038/s41598-025-88153-7) demonstrating that the fatigue component adds no predictive value beyond what simpler fitness-only models achieve. Understanding both the historical foundations and these recent critiques is essential for developing approaches that genuinely advance the field rather than repeating known limitations.
 
 ## The theoretical foundation
 
@@ -164,7 +164,7 @@ Lucia, A., Hoyos, J., Santalla, A., Earnest, C., & Chicharro, J. L. (2003). Tour
 
 Manzi, V., Iellamo, F., Impellizzeri, F., D'Ottavio, S., & Castagna, C. (2009). Relation between individualized training impulses and performance in distance runners. *Medicine and Science in Sports and Exercise*, 41(11), 2090–2096.
 
-Marchal, J., Thomas, C., Guilhem, G., Bideau, N., & Busso, T. (2025). The fitness-fatigue model: a Bayesian analysis of the overfitting issue. *Scientific Reports*, 15, 1234.
+Marchal, A., Benazieb, O., Weldegebriel, Y., Méline, T., & Imbach, F. (2025). Statistical flaws of the fitness-fatigue sports performance prediction model. *Scientific Reports*, 15, 3706.
 
 Mujika, I., Busso, T., Lacoste, L., Barale, F., Geyssant, A., & Chatard, J. C. (1996). Modeled responses to training and taper in competitive swimmers. *Medicine and Science in Sports and Exercise*, 28(2), 251–258.
 
