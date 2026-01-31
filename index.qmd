@@ -3,6 +3,14 @@ title: ""
 pagetitle: "Torri Callan"
 toc: false
 page-layout: article
+listing:
+  id: recent-posts
+  contents: posts
+  sort: "date desc"
+  type: default
+  max-items: 3
+  fields: [date, title, description]
+  date-format: "MMMM YYYY"
 ---
 
 ::: {.landing-name}
@@ -16,12 +24,7 @@ I write about sports performance, training science, and the statistics that conn
 ::: {.featured-posts}
 ## Recent Writing
 
-::: {.post-link}
-### [Statistical Models of Training Periodisation](posts/periodisation-statistical-modelling.qmd)
-::: {.date}
-January 2026
-:::
-A survey of how researchers have modelled training load, periodisation, and adaptation — and where the gaps are.
+::: {#recent-posts}
 :::
 
 :::
