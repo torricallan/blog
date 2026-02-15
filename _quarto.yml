@@ -5,6 +5,7 @@ project:
 website:
   title: ""
   site-url: https://torricallan.com.au
+  favicon: favicon.svg
   navbar:
     left:
       - href: index.qmd
