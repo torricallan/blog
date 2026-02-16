@@ -101,7 +101,7 @@ Effect sizes (θ) represent the maximum change in log-outcome across the predict
 
 The combination of EC50 and θ tells you both *where* the effect happens and *how big* it is. Three predictors from the 25.1 male model illustrate the range of patterns:
 
-![Hill curves for three predictors showing different EC50/effect patterns. Dashed lines mark EC50; rug plots show data distribution.](fig-hill-interpretation-25-1.png){#fig-hill-interpretation}
+![Hill curves for three predictors showing different EC50/effect patterns. Dashed lines mark EC50; rug plots show data distribution.](fig-hill-interpretation-25-1.png){.wide-figure #fig-hill-interpretation}
 
 **5K run time** has an EC50 of 22:37—almost exactly the sample median (21:50). This means the effect is active across the entire observed range, with no plateau. Combined with the largest θ of any continuous predictor (-0.219), this explains why 5K dominates: every minute matters, for everyone.
 
@@ -141,7 +141,7 @@ Some skills predicted performance even when the workout contained nothing simila
 
 Ring muscle-up ability predicted 25.1—a workout with no gymnastics pulling at all. Just burpees, dumbbell hang clean-to-overheads, and walking lunges. Holding all other predictors at their median, male athletes with ring muscle-ups are predicted to score 216 reps; those without, 185 reps. That's a **31-rep marginal effect** (90% CI: 26 to 37 reps).
 
-![Model-based marginal predictions for 25.1 reps. Athletes with ring muscle-ups (blue) are predicted to score ~31 reps more than those without (orange), holding all other predictors at median.](fig-rmu-marginal-25-1.png){#fig-rmu-marginal}
+![Model-based marginal predictions for 25.1 reps. Athletes with ring muscle-ups (blue) are predicted to score ~31 reps more than those without (orange), holding all other predictors at median.](fig-rmu-marginal-25-1.png){.wide-figure #fig-rmu-marginal}
 
 Strict HSPU ability also predicted 25.2, which had no handstand push-ups or wall walks. Male athletes with strict HSPU were 9 percentage points more likely to finish.
 
@@ -177,11 +177,11 @@ Across all three workouts, 5K run time predicted performance more strongly than 
 
 In 25.1, male athletes at the 10th percentile of 5K time (the fastest) are predicted to score 221 reps; those at the 90th percentile (slowest), 201 reps, representing a 19-rep marginal effect.
 
-![The entire distribution shifts with 5K time. Fast 5K athletes (blue) outperform slow 5K athletes (orange) across the range.](fig-5k-tertiles-25-1.png){#fig-5k-tertiles}
+![The entire distribution shifts with 5K time. Fast 5K athletes (blue) outperform slow 5K athletes (orange) across the range.](fig-5k-tertiles-25-1.png){.wide-figure #fig-5k-tertiles}
 
 The pattern held in 25.2 and 25.3. Faster 5K times meant higher completion probability (+1.8 pp in 25.2, +4.5 pp in 25.3 comparing p10 to p90) and faster completion times among finishers (~41 seconds in 25.2, ~54 seconds in 25.3). The effect didn't flatten, in that faster was always better, with no apparent ceiling.
 
-![5K time shows a steep effect across the predictor range; back squat shows essentially no effect on rep count. The shaded regions show 90% credible intervals.](fig-hill-curves-25-1.png){#fig-hill-curves}
+![5K time shows a steep effect across the predictor range; back squat shows essentially no effect on rep count. The shaded regions show 90% credible intervals.](fig-hill-curves-25-1.png){.wide-figure #fig-hill-curves}
 
 The Open tests sustained output. Time caps of 12-20 minutes, ascending rep schemes, and multiple movement transitions all favour athletes who can maintain work rate over time. For athletes who have the skill gates cleared and strength above threshold, aerobic capacity is what separates performers.
 

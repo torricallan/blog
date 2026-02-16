@@ -43,7 +43,7 @@ I fit this model using Bayesian inference, estimating separate parameters for ea
 
 ### The Saturation Curves
 
-![Speed-Distance Saturation (Hill Equation), faceted by pace threshold](plot_hill_saturation.png){#fig-saturation}
+![Speed-Distance Saturation (Hill Equation), faceted by pace threshold](plot_hill_saturation.png){.wide-figure #fig-saturation}
 
 The relationship between 7-day max speed and sustained distance shows a gently saturating pattern across all four pace thresholds. The effect is not dramatic — this is real training data with all the noise that implies!
 
@@ -51,7 +51,7 @@ At slower paces (4:00 min/km), the asymptotic distance is higher (~130m median) 
 
 ### A Common Speed Gateway
 
-![Hill Equation Parameters by Pace Threshold — median, 80% and 95% credible intervals](plot_hill_coefficients.png){#fig-parameters}
+![Hill Equation Parameters by Pace Threshold — median, 80% and 95% credible intervals](plot_hill_coefficients.png){.wide-figure #fig-parameters}
 
 The most interesting result is in the parameter estimates. The half-saturation speed $K$ sits remarkably close to ~15–16 km/h across all four pace thresholds. This suggests a common "gateway" speed. Below this, top-end capacity is genuinely limiting the ability to sustain pace. Above it, the marginal return on additional speed drops off.
 
@@ -61,7 +61,7 @@ The asymptotic distance $V_{\max}$ increases as the pace threshold loosens, as w
 
 ### Marginal Returns in Practice
 
-![Predicted burst distance at key speeds — median with 80% credible interval, by pace threshold](plot_predicted_at_speeds.png){#fig-predicted}
+![Predicted burst distance at key speeds — median with 80% credible interval, by pace threshold](plot_predicted_at_speeds.png){.wide-figure #fig-predicted}
 
 To make the saturation concrete, we can ask: how much sustained distance does each additional km/h of speed buy?
 
@@ -94,11 +94,11 @@ This connects to a broader point explored in [previous posts on periodisation](/
 
 This analysis uses a single predictor, but the framework naturally extends to multiple inputs. Two directions are worth pursuing.
 
-The first is recovery: does sleep quality moderate the speed-to-distance relationship? If two sessions have the same 7-day max speed but different sleep histories, does one consistently produce longer sustained efforts? Adding sleep data as a covariate or interaction term within the Hill equation would test whether recovery acts as an independent gating factor or simply adds noise.
+The first is recovery. How does sleep quality moderate the speed-to-distance relationship? I've been a long time user of the Oura ring. There appears to be a correlation between total sleep, full recovery and improvement in key metrics that can be investigatedfully.
 
-The second is sport-specific endurance measures. Top-end speed captures neuromuscular capacity, but something like a 12-minute test captures aerobic capacity more directly. These two predictors may gate different parts of performance — speed determining whether you *can* hold race pace, endurance determining *how long* — and a multi-predictor model could identify which is the binding constraint at any given point in a training cycle.
+The second is sport-specific endurance measures. Top-end speed captures neuromuscular capacity, but something like a 12-minute test captures aerobic capacity. These two predictors may gate different parts of performance, withspeed determining whether race pace can be held, and endurance determining for *how long*. A multi-predictor model could identify which is the binding constraint at any given point in a training cycle.
 
-The question shifts from "does speed predict sustained performance?" to "which capacity is currently the binding constraint?" — and that is a much richer training prescription than any single dose-response curve can provide.
+The question shifts from "does speed predict sustained performance?" to "which capacity is currently the limiting factor?" providing a much richer training prescription.
 
 ---
 
