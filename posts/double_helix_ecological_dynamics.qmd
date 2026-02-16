@@ -11,56 +11,55 @@ format:
     toc: true
     toc-depth: 3
     toc-location: left
-    code-fold: true
-    fig-width: 8
-    fig-height: 6
 ---
 
 ## The Ecological Dynamics Project
 
-Ecological dynamics offers a fundamentally different account of how skilled movement develops. Where traditional coaching treats technique as a template to be installed through instruction and repetition, ecological dynamics treats coordination as emergent—arising from the interaction between performer, task, and environmental constraints rather than being prescribed by a coach.
+Ecological dynamics offers a fundamentally different account of how skilled movement develops. Traditional coaching treats technique as a template to be installed through instruction and repetition. Ecological dynamics treats coordination as emergent, arising from the interaction between performer, task, and environmental constraints rather than being prescribed by a coach.
+
+This framework has been developed primarily in open play sports (football, basketball, rugby union) where the skill problem is perceptual-cognitive: reading play, anticipating opponents, selecting actions. In these contexts, physiological capability matters but operates somewhat independently from skill. A midfielder's decision-making doesn't fundamentally change shape based on fatigue; you can meaningfully separate "tactical training" from "conditioning." In cyclical sports, skill and metabolic capacity are tightly coupled. The coordination solution is shaped by physiological state. This problem is where ecological dynamics can be extended.
 
 ### Theoretical Foundations
 
-The framework draws on three intellectual traditions. From Bernstein's work on the degrees of freedom problem comes the recognition that the motor system has far more controllable dimensions than can be consciously managed—coordination must emerge through self-organisation rather than explicit control. From Gibson's ecological psychology comes the concept of affordances: athletes don't perceive the world neutrally then decide what to do; they perceive opportunities for action directly, and perception and action are coupled. From dynamical systems theory comes the mathematics of how complex systems settle into stable patterns (attractors) and transition between them.
+The framework draws on three intellectual traditions.
 
-Karl Newell's (1986) constraints model provides the operational framework. Coordination emerges from the interaction of three constraint categories: organismic constraints (the performer's physical and psychological characteristics), environmental constraints (the physical and social context), and task constraints (the goals, rules, and equipment that define the activity). The coach's role shifts from technique instructor to constraint manipulator—designing learning environments where functional movement solutions can self-organise.
+Bernstein (1967) identified that the motor system has far more controllable degrees of freedom than can be consciously managed. A single arm movement involves coordinating dozens of muscles across multiple joints, each with its own range of motion, and explicit control of each dimension is computationally intractable. Bernstein's solution is that coordination emerges through self-organisation, with the system coupling degrees of freedom in order to solve movement problems.
 
-### Key Researchers and Their Positions
+Gibson (1979) argued that perception is not passive reception followed by cognitive processing. Athletes perceive affordances directly from the environment. Perception and action are coupled in a continuous loop rather than operating as separate stages. The implication is that skill is not "knowing what to do" then "doing it," but a unified perception-action system that detects and exploits affordances in real time.
 
-Keith Davids (Sheffield Hallam University) has shaped much of ecological dynamics theory. His work frames motor learning as a "phase-like, nonlinear process" involving overlapping phases: Search and Exploration, Discovery and Attunement, and Calibration. Crucially, Davids emphasises that "exploration is not only a feature of novice behaviour in a task, but also remains an important feature of expert learning behaviours"—challenging stage models that confine exploration to early learning. His FIFA Training Centre work has attracted interest from elite coaches in how ecological approaches help players "come up with multiple ways of achieving any given objective."
+Gibson arrived at this position by rejecting the dominant information-processing model, where sensory data enters through the eyes, gets transformed through successive stages of neural computation, and eventually produces a mental representation that guides action. Gibson observed that this model creates an explanatory gap: who or what reads the final representation? The problem is infinite regress. If a mental representation requires an interpreter, that interpreter needs its own representations, which need their own interpreter, and so on. This is the homunculus problem.
 
-Duarte Araújo (University of Lisbon) takes perhaps the strongest position against predetermined planning. His work with Davids argues that "the dynamic nature of changing task constraints in sports cannot be predicted over longer timescales." Araújo advocates for "local-to-global synergy formation"—where movement patterns emerge through self-organisation—contrasting this with "global-to-local" approaches where coaches prescribe strategic patterns. The implication: talent development should focus on developing expertise in individuals rather than following predetermined timelines.
+He proposed instead that the perceptual system evolved to detect invariants in the environment. Stable patterns in the optic flow directly specify relevant properties of the world. An affordance is what the environment offers the organism: a surface affords walking, a gap affords jumping, a ball affords catching. Instead of being computed from raw data, opportunities for action are perceived immediately because the perceptual system is attuned to them.
 
-Ian Renshaw (Queensland University of Technology) has focused on practical pedagogy, developing the Session Designer Framework with step-by-step planning tools for constraints-led sessions. His work introduces "representative learning design dials"—adjustable parameters including variability, representativeness, and task complexity that coaches can manipulate systematically. Renshaw emphasises that "adopting a CLA is a dynamic, iterative process where the coach and performer create an emergent learning and performance programme."
+Affordance perception appears (according to subsequent neuroscience research) to involve distributed networks linking visual cortex, parietal regions (which integrate spatial and body-related information), and premotor areas (which prepare actions). Crucially, there is no central "perceiver" that reads a final representation. The perception-action system is coupled, in the sense that neural activity in motor planning regions occurs during observation of action-relevant objects, even without intention to act. The system perceives in terms of action possibilities.
 
-Carl Woods (Victoria University) has been most explicit in addressing how ecological dynamics principles can inform training program design in professional contexts. His "Department of Methodology" concept proposes multidisciplinary teams working within a unified ecological dynamics framework, coordinating activity through shared principles rather than working in disciplinary silos.
+The mathematical framework underpinning the theory is provided by dynamical systems. Movement systems are modelled as evolving through a state space, settling into stable regions (attractors) and transitioning between them when control parameters cross critical thresholds. Coordination patterns are not prescribed but emerge from the interaction of constraints. Small parameter changes can produce sudden reorganisation, and the system's trajectory depends on its history. Because of this, behaviour is nonlinear. This means that movement solutions cannot be installed directly; they must be attracted through constraint manipulation.
+
+If coordination emerges from constraint interaction rather than explicit control, then the coach's job is to manipulate constraints rather than prescribe technique. Newell (1986) identified three constraint categories: organismic (the performer's physical and psychological characteristics), environmental (the physical and social context), and task (the goals, rules, and equipment that define the activity). Task constraints are most directly manipulable. By changing the target, the equipment, the rules, coaches can design practice environments where movement solutions are attracted, not instructed.
 
 ### The Critique of Traditional Coaching
 
-Ecological dynamics proponents don't merely offer an alternative—they identify specific problems with traditional skill coaching.
+Ecological dynamics proponents identify specific problems with traditional skill coaching as part of their offering.
 
-**Decontextualised practice** separates skill execution from the perceptual environment. Drilling a pass without defenders, practicing a shot without game pressure, rehearsing technique without the informational context that would guide it in competition. This disrupts perception-action coupling, which ecological dynamics considers the fundamental unit of skilled behaviour. Skills developed in isolation may not transfer because the athlete never learned to detect the affordances that specify when and how to act.
+**Decontextualised practice** separates skill execution from the perceptual environment. Drilling a pass without defenders, practicing a shot without game pressure, rehearsing technique without the informational context that would guide it in competition. This disrupts perception-action coupling, which ecological dynamics considers the fundamental unit of skilled behaviour. Athletes need to learn to detect the affordances that specify when and how to act in order for developed skills to transfer.
 
-**Linear progression assumptions** contradict evidence that athletes show highly variable learning rates and trajectories. The expectation that athletes move predictably through stages—beginner to intermediate to advanced—doesn't match the nonlinear, often discontinuous nature of actual skill development.
+**Linear progression assumptions** contradict evidence that athletes show highly variable learning rates and trajectories. The expectation that athletes move predictably through stages doesn't match the nonlinear, often discontinuous nature of actual skill development.
 
-**Prescriptive technique models** fail to develop what researchers call "degeneracy"—the ability to achieve the same goal through structurally varying motor solutions. An athlete trained to execute one "correct" technique lacks the adaptive flexibility to solve the coordination problem when constraints change. Expert performers don't have one optimal solution; they have a repertoire of functional solutions deployable across contexts.
+**Prescriptive technique models** fail to develop what researchers call "degeneracy", or the ability to achieve the same goal through structurally varying motor solutions. An athlete trained to execute one "correct" technique lacks the adaptive flexibility to solve the coordination problem when constraints change. A corollary of the idea that tasks are coupled to environment is that athletes need a repertoire of functional solutions to deploy across circumstances.
 
-John Kiely's foundational critique (Sports Medicine, 2018) extends beyond skill coaching to periodisation itself. He challenges the field's reliance on Hans Selye's General Adaptation Syndrome, arguing that modern allostasis theory demonstrates adaptation is modulated by psycho-emotional factors, context, and individual history—not merely biological responses to physical stress. His provocative conclusion: "There seems no optimised pre-determinable planning path. There is only the informed exploration of a dynamically changing landscape."
+John Kiely's foundational critique (Sports Medicine, 2018) extends beyond skill coaching to periodisation itself. He challenges the field's reliance on Hans Selye's General Adaptation Syndrome, arguing that modern allostasis theory demonstrates adaptation is modulated by psycho-emotional factors, context, and individual history, not merely biological responses to physical stress. "There seems no optimised pre-determinable planning path. There is only the informed exploration of a dynamically changing landscape."
 
 ### The Research Base
 
-The approach has generated substantial research, primarily in invasion sports like football, basketball, and rugby. Empirical comparisons between linear and nonlinear pedagogical approaches show mixed but generally favourable results for ecological methods. A systematic review of team-invasion sports found nonlinear approaches produce greater effects for tactical skills, with stronger transfer to game performance—though the evidence base remains limited.
+The approach has generated substantial research, primarily in invasion sports like football, basketball, and rugby. Empirical comparisons between linear and nonlinear pedagogical approaches show mixed but generally favourable results for ecological methods. A systematic review of team-invasion sports found nonlinear approaches produce greater effects for tactical skills, with stronger transfer to game performance.
 
-A practical implementation challenge persists: there is "little guidance to help ecological designers decide what type of constraint to design-in, how long to leave a constraint in for, and when to manipulate, change or add-in extra constraints." Practitioners are largely encouraged to develop expertise through "exploratory trial-and-error learning"—a recommendation that critics note lacks the research-informed specificity coaches need.
-
-Longitudinal validation studies—tracking systematic implementation over full seasons or multi-year development pathways—are notably absent. This represents the most significant limitation in translating ecological dynamics principles to practice.
+A practical implementation challenge persists. There is "little guidance to help ecological designers decide what type of constraint to design-in, how long to leave a constraint in for, and when to manipulate, change or add-in extra constraints." Practitioners are largely encouraged to develop expertise through "exploratory trial-and-error learning", a recommendation that critics note lacks the research-informed specificity coaches need.
 
 ### The Periodisation Question
 
-The challenge isn't that traditional periodisation conflicts with ecological dynamics—it's that traditional periodisation was developed primarily for physiological adaptation. Matveyev's foundational work, Bompa's block periodisation, Issurin's conjugate sequencing: these frameworks tell you how to sequence volume and intensity to develop strength, power, and endurance. They say relatively little about skill development, implicitly treating technique as something maintained or refined alongside the "real" work of conditioning.
+Traditional periodisation was developed primarily for physiological adaptation. Matveyev's foundational work, Bompa's block periodisation, Issurin's conjugate sequencing are frameworks that tell you how to sequence volume and intensity to develop strength, power, and endurance. They say relatively little about skill development, implicitly treating technique as something maintained or refined alongside the "real" work of conditioning.
 
-Ecological dynamics demanded a different question: if coordination emerges from constraint interaction rather than being installed through instruction, how should skill training be structured across a season? What should a macrocycle look like when the training target is perceptual-motor development rather than physiological adaptation?
+Ecological dynamics demanded a different question: if coordination emerges from constraint interaction rather than being installed through instruction, how should skill training be structured across a season? It's not clear if a macrocycle is necessary, if the training target is perceptual-motor development rather than physiological adaptation.
 
 Two frameworks now explicitly address this: the Skill Acquisition Periodisation (SAP) framework and the Periodization of Skill Training (PoST) framework. These represent the field's attempt to provide structured planning tools while preserving ecological principles.
 
@@ -71,288 +70,173 @@ Two frameworks now explicitly address this: the Skill Acquisition Periodisation 
 - *Overload* becomes increasing cognitive effort through variability and interference
 - *Reversibility* addresses skill retention and transfer between contexts
 
-The framework preserves periodisation vocabulary while changing what the terms refer to. You're not periodising techniques; you're periodising constraint configurations and information load.
+The framework preserves periodisation vocabulary while changing what the terms refer to. The coach or planner is periodising constraint configurations and information load.
 
 **PoST (Otte, Millar & Klatt, 2019)** provides more operational detail. Built on Newell's model of motor learning (itself derived from Bernstein's degrees of freedom problem), PoST proposes three training stages:
 
 *Coordination Training* is the initial stage: low environmental variability and task complexity. Athletes typically "freeze" degrees of freedom to simplify the coordination problem. The framework emphasises task simplification (reducing complexity while maintaining perception-action coupling) rather than task decomposition (breaking skills into isolated parts). Progression is based on observed movement consistency, not predetermined timelines.
 
-*Skill Adaptability Training* comprises three nested sub-stages. Movement Variability Training involves 1-2 athletes working on within-skill variability with modified equipment. Complex Training expands to 3-4 athletes practicing between-skill variability across multiple tasks. Team-based Training introduces phase-of-play situations and small-sided games with maximum representativeness. The progression systematically increases "information complexity"—the perceptual-cognitive challenge of the learning environment.
+*Skill Adaptability Training* comprises three nested sub-stages. Movement Variability Training involves 1-2 athletes working on within-skill variability with modified equipment. Complex Training expands to 3-4 athletes practicing between-skill variability across multiple tasks. Team-based Training introduces phase-of-play situations and small-sided games with maximum representativeness. The progression systematically increases "information complexity", or the perceptual-cognitive challenge of the learning environment.
 
 *Performance Training* shifts toward competition preparation, where skill development may no longer be the primary objective. The framework explicitly acknowledges this stage may re-emphasise movement stability for confidence.
 
 What distinguishes PoST from traditional periodisation is its accommodation of non-linear progression. The authors state that "movement back and forth between skill training stages should be considered" as normal development, not regression. This is a genuine departure from linear models.
 
-The framework offers concrete planning tools: macro-cycle calendars, weekly micro-cycle templates, and single-session planning forms with fields for constraint manipulation. A published case study applied the framework to professional goalkeeper training over a 2018/2019 season, revealing that typical GK coaches spent only around 30% of training time in complex, representative activities—with 50-70% devoted to isolated technical work that fails to maintain perception-action coupling. The framework provides structure for shifting that balance.
+The framework offers concrete planning tools: macro-cycle calendars, weekly micro-cycle templates, and single-session planning forms with fields for constraint manipulation. A published case study applied the framework to professional goalkeeper training over a 2018/2019 season, revealing that typical GK coaches spent only around 30% of training time in complex, representative activities, with 50-70% devoted to isolated technical work that fails to maintain perception-action coupling. The framework provides structure for shifting that balance.
 
 ### What Gets Periodised
 
 The key insight from both frameworks: the debate isn't whether to plan skill training, but what should be periodised. The answer is constraints and learning environments, not prescribed techniques. The coach plans sequences of practice configurations characterised by different constraint setups. The athlete's movement solutions within those environments remain emergent.
 
-This preserves self-organisation at the movement execution level while providing structure at the practice design level—an elegant resolution that works well for contexts where skill and conditioning are loosely coupled.
+This preserves self-organisation at the movement execution level while providing structure at the practice design level, an elegant resolution that works well for contexts where skill and conditioning are loosely coupled.
 
 ### Theoretical Tensions
 
-The field hasn't reached complete consensus. Collins et al. (2024) note that "whether reading one article or several from an ecological dynamics perspective, the narrative to date has been inconsistent, confusing and contradictory"—with some papers dismissing mental representations entirely while others acknowledge intentions and attention as meaningful factors. The relationship between emergence and planning, between self-organisation and coaching intervention, remains actively debated.
+The field hasn't reached complete consensus. Collins et al. (2024) note that "whether reading one article or several from an ecological dynamics perspective, the narrative to date has been inconsistent, confusing and contradictory", with some papers dismissing mental representations entirely while others acknowledge intentions and attention as meaningful factors. The relationship between emergence and planning, between self-organisation and coaching intervention, remains actively debated.
 
 But the direction of travel is clear: periodise constraints, not techniques; expect nonlinear progression; respond to observed athlete behaviour rather than following predetermined timelines.
 
 ### Extending to Different Contexts
 
-Both PoST and SAP were developed in open-skill, invasion sport contexts. Football. Basketball. Team games where the skill problem is primarily perceptual-cognitive: reading play, anticipating opponents, selecting from a repertoire of actions. The metabolic demands exist but operate somewhat independently. A midfielder's decision-making quality doesn't fundamentally change shape based on whether they're at minute 20 or minute 80. Fatigue degrades performance, but the skill itself—the perceptual-cognitive apparatus—remains structurally similar.
+Both PoST and SAP were developed in open-skill, invasion sport contexts. Football. Basketball. Team games where the skill problem is primarily perceptual-cognitive: reading play, anticipating opponents, selecting from a repertoire of actions. The metabolic demands exist but operate somewhat independently. A midfielder's decision-making quality doesn't fundamentally change shape based on whether they're at minute 20 or minute 80. Fatigue degrades performance, but the perceptual-cognitive apparatus remains structurally similar.
 
 This creates a loose coupling between skill and metabolic capacity. You can meaningfully separate "tactical training" from "conditioning." The skill development question (how do I improve decision-making under pressure?) and the physiological question (how do I build the aerobic base to sustain 90 minutes?) are related but distinguishable problems with distinguishable solutions.
 
-The PoST framework's structure reflects this context. When it describes Performance Training as a phase where "skill development may no longer be the primary objective," it's treating skill as something that can be deprioritised while you attend to other concerns. The framework periodises information complexity—a perceptual-cognitive variable—because that's where the skill problem lives in invasion sports.
+The PoST framework's structure reflects this context. When it describes Performance Training as a phase where "skill development may no longer be the primary objective," it's treating skill as something that can be deprioritised while you attend to other concerns. The framework periodises information complexity because that's where the perceptual-cognitive problem lives in invasion sports.
 
-Cyclical sports present a different constraint landscape.
+Cyclical sports present a different constraint landscape. In rowing, kayaking, running, cycling, and swimming, performance is a skill acquisition task with high metabolic demand. What does the evidence show about skill and metabolic capacity in these contexts?
 
-## The Double Helix Thesis
-
-In cyclical sports—rowing, kayaking, running, cycling, swimming—performance is a skill acquisition task with high metabolic demand. But the traditional framing of "skill with high metabolic demand" still implies two separate things that happen to co-occur. The thesis is stronger: metabolic capacity and coordination skill are not loosely coupled variables that occasionally interact. They are tightly intertwined—better understood as the same phenomenon viewed from different angles, or as complementary strands of a double helix where information is encoded in the relationship between them rather than in either strand alone.
-
-This isn't a claim that skill and physiology are related. Everyone knows they're related. The claim is that in cyclical sports, they cannot be meaningfully separated—not just for practical purposes, but in principle. Every performance measure is a joint product. Changes in one strand immediately affect the other. They co-evolve, and the co-evolution is the training problem.
-
-This mirrors a statistical reality I explored in my [previous post on periodisation modelling](/posts/periodisation-statistical-modelling): Hellard et al. found that the fitness and fatigue time constants in the FFM correlate at r = 0.99—they cannot be independently identified from performance data. The model's parameters are not separately estimable because the phenomena they describe are not separate. The Double Helix thesis suggests this isn't a measurement problem to be solved with better instruments. It's a reflection of how these systems actually work.
-
-### Evidence for Tight Coupling
+## Skill and Metabolic Capacity in Cyclical Sports
 
 #### 1. Fatigue systematically reshapes coordination, not just performance
 
 The movement pattern that solves the coordination problem when fresh is not the same pattern that solves it when fatigued. This isn't degradation—it's a different problem requiring a different solution.
 
-Apte et al. (2021) analysed 68 studies with 42 biomechanical parameters, documenting consistent kinematic changes as metabolic fatigue accumulates: contact time increases, cadence decreases, knee flexion at initial contact increases, vertical stiffness decreases. These changes are simultaneously adaptive and maladaptive—increased knee flexion represents a "soft landing" strategy that attenuates impact forces, while increased peak tibial acceleration indicates declining neuromuscular control.
+Meta-analytic evidence from running documents consistent kinematic changes as metabolic fatigue accumulates: contact time increases, cadence decreases, knee flexion at initial contact increases, vertical stiffness decreases (Apte et al., 2021). But the key finding is that athletes continuously recalibrate. Hunter and Smith (2007) found that during a 1-hour high-intensity run, runners' preferred stride frequency tracked their energetically optimal frequency throughout, declining from 1.45 to 1.43 Hz as oxygen uptake rose.
 
-The time-course reveals continuous recalibration. Hunter and Smith (2007) found that during a 1-hour high-intensity run, both preferred and optimal stride frequencies decreased from 1.45 to 1.43 Hz while oxygen uptake increased from 45.9 to 47.4 ml/kg/min. Critically, runners maintained self-optimisation—their preferred frequency matched their energetically optimal frequency throughout, suggesting the neuromuscular system continuously recalibrates coordination to metabolic state. In swimming, Puce et al. (2023) identified a three-phase pattern: stroke frequency initially increases to compensate for declining stroke length, until reaching a mechanical failure threshold, after which both parameters decline together.
+A similar pattern is found in swimming. Stroke frequency initially increases to compensate for declining stroke length, until a mechanical failure threshold is reached, after which both decline together (Puce et al., 2023).
 
-In sprint kayaking, stroke rate and paddle force exist in a coupled relationship mediated by boat speed. At race pace, elite paddlers operate near a resonance point where stroke timing synchronises with the boat's displacement wave characteristics. As metabolic fatigue accumulates, the force available per stroke decreases. The paddler faces a choice: maintain stroke rate with reduced force (accepting speed loss), increase stroke rate to compensate (increasing metabolic cost and risking coordination breakdown), or find a new coordination solution that preserves output through different means.
-
-The "skill" of the finish segment isn't a degraded version of the start segment skill. It's a distinct coordination solution to a distinct problem.
+The neuromuscular system is actively re-solving the coordination problem as metabolic constraints shift, emphasising how the metabolic constraints of a task require different movement solutions.
 
 #### 2. Economy cannot be partitioned into technique versus physiology
 
-The most compelling evidence for tight coupling comes from studies attempting to partition economy into separate components. Van Hooren et al. (2024) found that running biomechanics explain only 4–12% of between-individual variation in running economy when considered in isolation. Meanwhile, economy varies by up to 30% among trained runners with similar VO2max values—a gap that determines race outcomes more than maximal oxygen uptake.
+Biomechanics alone explains only 4–12% of between-individual variation in running economy (Van Hooren et al., 2024). Physiology alone fares no better. Economy varies by up to 30% among trained runners with similar VO2max values. The gap is substantial, enough to determine race outcomes more than maximal oxygen uptake.
 
-Training studies reveal economy improves through both pathways, yet neither alone accounts for observed changes. Moore, Jones, and Dixon (2012) documented that beginner runners became 8.4% more economical over 10 weeks, with seven kinematic/kinetic variables changing while VO2max remained stable—demonstrating motor learning drives economy without detectable physiological change. Conversely, Blagrove et al.'s 2018 systematic review found strength training produces beneficial effects on running economy through enhanced musculotendinous stiffness, not through observable technique modifications.
+Training studies deepen the puzzle. Motor learning can improve economy without detectable physiological change. Moore, Jones, and Dixon (2012) found beginner runners became 8.4% more economical over 10 weeks while VO2max remained stable. Conversely, strength training improves economy through enhanced musculotendinous stiffness without observable technique modifications (Blagrove et al., 2018). Economy improves through both pathways, but neither is visible in the measures we'd expect.
 
-The impossibility of clean separation is perhaps best illustrated by Paula Radcliffe's 15-year improvement of 15% in running economy (from 205 to 175 mL·kg⁻¹·km⁻¹ at 16 km/h) while her VO2max remained essentially stable at ~70 mL·kg⁻¹·min⁻¹. Her physiologist Andrew Jones acknowledged he cannot identify which single factor drove this improvement. The honest answer is that the question itself may be malformed—the improvement wasn't in "technique" or "physiology" but in the coupled system that produces economical running.
+Paula Radcliffe's career illustrates the impossibility of clean separation. Over 15 years, her running economy improved 15% (from 205 to 175 mL·kg⁻¹·km⁻¹ at 16 km/h) while her VO2max remained stable at ~70 mL·kg⁻¹·min⁻¹. Her physiologist Andrew Jones acknowledged he cannot identify which single factor drove this improvement.
+
+The question itself may be malformed. The improvement wasn't in "technique" or "physiology" but in the coupled system that produces economical running.
 
 #### 3. Metabolic capacity is bound to coordination context
 
-Perhaps the strongest evidence for coupling comes from specificity research showing that capacity measured through one movement pattern doesn't transfer to another. The magnitude of VO2max differences across modalities depends on training history: untrained subjects show 10–22% higher VO2max on treadmill than cycle ergometer, while trained cyclists achieve similar or higher values cycling than running.
+Capacity measured through one movement pattern doesn't fully transfer to another. VO2max tested on a treadmill versus a cycle ergometer differs depending on training history. Untrained subjects show 10–22% higher VO2max running than cycling. But trained cyclists achieve similar or higher values on the bike than the treadmill (Basset & Boulay, 2000).
 
-Basset and Boulay (2000) quantified this precisely: runners showed 10.5% higher VO2max on treadmill versus cycle, triathletes 6.1% higher, cyclists only 2.8% different—with trained cyclists sometimes exceeding treadmill values on the bike. Economy shows even stronger specificity: a 2018 study found runners had 21% better running economy than cyclists, yet cycling economy showed no significant difference between groups.
+The pattern is consistent. Runners showed 10.5% higher VO2max on treadmill versus cycle, triathletes 6.1% higher, cyclists only 2.8% different. Economy shows even stronger specificity. Runners had 21% better running economy than cyclists, yet cycling economy showed no difference between groups.
 
-The mechanism involves peripheral adaptations that are necessarily coordination-specific. Saltin's one-leg training studies demonstrated 20–30% increased capillarisation and 20–40% increased oxidative enzyme activity in trained legs while untrained legs showed no peripheral adaptations despite central cardiovascular improvements. As Hughes et al. (2018) summarised: "the vast majority of training-induced adaptations occur only in those muscle fibres that have been recruited during the exercise regimen." For competitive athletes, peripheral adaptations become the limiting factor—meaning metabolic capacity becomes increasingly bound to practiced coordination patterns as training advances.
+The mechanism is peripheral adaptation. Saltin's one-leg training studies demonstrated 20–30% increased capillarisation and 20–40% increased oxidative enzyme activity in trained legs, while untrained legs showed no peripheral adaptations despite central cardiovascular improvements. As Hughes et al. (2018) summarised: "the vast majority of training-induced adaptations occur only in those muscle fibres that have been recruited during the exercise regimen."
 
-The "metabolic capacity" isn't a tank of fuel that can be deployed through any movement pattern. It's developed and expressed within particular coordination contexts.
+For competitive athletes, peripheral adaptations become the limiting factor. Metabolic capacity is developed and expressed within particular coordination contexts, and the coordination solution chosen determines which fibres are recruited.
 
 #### 4. Pacing develops through metabolic experience, not cognitive instruction
 
-The execution of a race pace curve is perhaps the clearest example of skill-metabolic coupling. Menting et al. (2022) reviewed 64 peer-reviewed articles and concluded that "pacing might be perceived as a self-regulatory learning skill that needs to be developed over years and cannot change easily." Good pacing strategies are maintained and inappropriate ones discarded through experience—the same processes governing skill acquisition generally.
+Pacing is a self-regulatory skill that develops over years and cannot change easily (Menting et al., 2022). Good pacing strategies are maintained and inappropriate ones discarded through experience. These are the same processes that generally govern skill acquisition.
 
 Developmental studies reveal a clear trajectory. Children ages 5–8 show "positive pacing" (continuous slowdown), indicating inability to anticipate metabolic demands. By age 10, U-shaped velocity distributions emerge. Major shifts toward adult-like pacing appear around ages 15–16. Lambrick et al. (2013) demonstrated that inexperienced children required repeated metabolic exposure to develop appropriate 800m pacing, improving from 250.1 to 242.4 seconds across three trials.
 
-Amann's landmark studies provide the mechanistic evidence. When Group III/IV muscle afferent feedback was blocked via fentanyl during 5km cycling time trials, athletes overestimated their capacity, chose excessive power outputs, developed severe peripheral fatigue, and experienced "severe ambulatory problems on completion." The afferent blockade released what Amann described as a "centrally mediated brake on central motor drive"—demonstrating that pacing cannot be purely cognitive because it fundamentally depends on physiological feedback.
+Pacing depends on physiological feedback. Amann's studies blocked Group III/IV muscle afferent feedback via fentanyl during 5km cycling time trials. Athletes overestimated their capacity, chose excessive power outputs, and experienced "severe ambulatory problems on completion." The afferent blockade released what Amann described as a "centrally mediated brake on central motor drive." Pacing cannot be purely cognitive.
 
-Pacing breaks down predictably in novel metabolic conditions. Racinais et al. (2015) found cyclists completing their first heat-exposed time trial took 77 ± 6 minutes versus 66 ± 3 minutes in cool conditions—despite initiating the first 20% at similar power output. They could not pace appropriately without metabolic reference points for heat stress. After 14 days of heat acclimatisation, performance returned to 66 ± 4 minutes. The pacing skill required calibration through metabolic experience in that specific context.
+Pacing also breaks down in novel metabolic conditions. Racinais et al. (2015) found cyclists completing their first heat-exposed time trial took 77 ± 6 minutes versus 66 ± 3 minutes in cool conditions, despite initiating the first 20% at similar power output. After 14 days of heat acclimatisation, performance returned to 66 ± 4 minutes. Without metabolic reference points for heat stress, they could not pace appropriately.
 
-This is fundamentally different from invasion sport skills, where perceptual-cognitive patterns can be trained through video, small-sided games, and varied practice conditions. The pacing skill requires the physiology to be present.
+This is different from invasion sport skills, where perceptual-cognitive patterns can be trained through video, small-sided games, and varied practice. Pacing requires the physiology to be present.
 
 #### 5. Elite-novice differences emerge under metabolic load
 
-Elite and novice performers don't just have different physiology—they have different coordination solutions, and the difference becomes most pronounced under metabolic stress.
+Maas et al. (2018) compared 15 novice runners (<10 km/week) with 15 competitive long-distance runners during treadmill runs to exhaustion. While both groups showed increased pelvic tilt and rotation, only novices displayed significant increases in forward trunk lean (a change associated with injury risk and reduced efficiency).
 
-Maas et al. (2018) compared 15 novice runners (<10 km/week) with 15 competitive long-distance runners during treadmill runs to exhaustion. While both groups showed increased pelvic tilt and rotation, only novices displayed significant increases in forward trunk lean—a change associated with injury risk and reduced efficiency. Elite rowers sustain technique over 1-hour ergometer sessions with only subtle changes; club-level rowers show progressive technique deterioration that increases spinal loading.
+Mo and Chow (2018) found experienced runners displayed more coordination variability (flexibility in inter-joint couplings) while maintaining less outcome variability than novices. A larger repertoire of motor solutions enables adaptive responses to fatigue while preserving performance stability.
 
-Mo and Chow (2018) found experienced runners displayed more coordination variability (flexibility in inter-joint couplings) while maintaining less outcome variability than novices. The experts' larger repertoire of motor solutions enables adaptive responses to fatigue while preserving performance stability. Elite swimmers maintain Index of Coordination values throughout 400m efforts while less skilled swimmers show coordination drift.
+Elite and novice performers have different coordination solutions, and the difference becomes most pronounced under metabolic stress. This appears to be a distinguishing factor in cyclical sports.
 
-This suggests that what separates elite from novice in cyclical sports is substantially a coordination difference—but one that only manifests under metabolic load. If you test at low intensity, the differences are modest. The skill gap lives in the interaction.
+## The Double Helix Thesis
 
-### The Double Helix Analogy
+The evidence points to manifestations of the same underlying phenomenon. Fatigue reshapes coordination rather than simply degrading it. Economy cannot be partitioned into technique versus physiology. Pacing requires metabolic experience to develop. Capacity is bound to coordination context. Elite-novice differences emerge under metabolic load. The expression of metabolic capacity requires motor coordination, and vice versa.
 
-DNA's two strands are chemically distinct but structurally inseparable. Each strand defines the shape of the other through base pairing. The genetic information isn't stored in either strand alone—it emerges from their complementary relationship.
+We call this the Double Helix thesis. Metabolic capacity and coordination skill are not loosely coupled variables that occasionally interact. They are better understood as complementary strands where information is encoded in the relationship between them rather than in either strand alone.
 
-Similarly:
+DNA's two strands are chemically distinct but structurally inseparable. Each strand defines the shape of the other through base pairing. The genetic information emerges from their complementary relationship, rather than being stored in either strand alone. Similarly, the coordination solution is shaped by the metabolic context in which it operates, and metabolic capacity is only ever expressed through a coordination solution.
 
-- The **coordination solution** doesn't just *require* metabolic capacity to be expressed—it is fundamentally *shaped by* the metabolic context in which it operates
-- **Metabolic capacity** isn't an abstract quantity that exists independently—it is only ever expressed *through* a coordination solution  
-- Every performance measure is a **joint product** of both strands
-- Changes in one strand immediately affect the other; they **co-evolve**
+This mirrors a statistical reality explored in my [previous post on periodisation modelling](../posts/periodisation-statistical-modelling): Hellard et al. found that the fitness and fatigue time constants in the FFM correlate at r = 0.99. These parameters cannot be independently identified from performance data. The Double Helix thesis suggests this is a reflection of how these systems actually work.
 
-### Implications for Assessment and Training
+## Extending Ecological Dynamics to Cyclical Sports
 
-**For assessment:** You cannot cleanly assess "skill" or "fitness" in isolation. A critical power test is nominally metabolic but also tests the coordination solution under that constraint configuration. A race simulation is nominally skill assessment but is metabolically limited. The question isn't "what is their fitness?" or "what is their technique?" but "how does the joint product change under different constraint configurations, and what does that reveal about limiting factors?"
+The Double Helix thesis seeks to extend the core concepts of ecological dynamics to a domain the existing frameworks haven't yet adequately addressed.
 
-**For training:** There is no such thing as "pure" fitness work—every metabolic session also reinforces (or potentially interferes with) coordination patterns. There is no such thing as "pure" skill work—every coordination session at representative intensity also delivers a metabolic stimulus. The question isn't "how do I balance fitness and skill training?" but "how do I configure constraints so that coordination and metabolic adaptations co-evolve productively?"
+### Principles That Transfer
 
-This is where the ecological dynamics periodisation frameworks need extension.
+**Periodise constraints, not techniques.** The coach's job is to configure constraints that allow functional coordination solutions to emerge. In cyclical sports, the relevant constraints include pace targets, segment focus, entry state (the metabolic and kinematic context the athlete enters the effort from), duration and rest, and equipment and environment. The constraints define the coordination problem so that the solution can be found by the athlete.
 
-## What Survives: Ecological Dynamics Principles That Transfer
+**Responsive over predetermined planning.** Progression should be guided by observed athlete response: movement consistency, output relative to expectation, signs of coordination breakdown or consolidation. Calendar-based phase transitions make little sense when athlete trajectories are highly variable. Observe how the joint product is evolving and adjust constraints accordingly.
 
-The Double Helix thesis doesn't reject ecological dynamics—it extends it to a domain the existing frameworks haven't adequately addressed. Several core principles transfer directly.
+**Non-linear progression as normal.** An athlete might return to earlier segment work after a block focused on a different segment, because the changed metabolic profile creates new coordination problems in previously-trained segments. Skill and metabolic development must constantly track a moving target.
 
-### Periodise Constraints, Not Techniques
+**The coach as constraint manipulator.** The coach cannot directly install a coordination solution or manipulate metabolic pathways. They can only configure constraints and let the system self-organise in response. Understanding what's happening inside provides hypotheses and guides constraint selection, but it removes dependence on mechanistic knowledge to act.
 
-This principle survives intact and may be even more important in cyclical sports. The coach's job isn't to prescribe a technique template for paddling or running—it's to configure constraints that allow functional coordination solutions to emerge.
+### What Changes for Cyclical Sports
 
-In cyclical sports, the relevant constraints include:
+**Block logic reconsidered.** Traditional periodisation prioritises the development of physiology (you can build the aerobic base first, add glycolytic capacity, then sharpen for racing). But the coupling thesis implies you cannot develop aerobic capacity separately from the coordination pattern you'll use to express it. An "aerobic base block" consisting entirely of steady-state work develops a coordination solution for steady-state movement. Not only will this not transfer to race-pace coordination, it may degrade the race-pace movement solution.
 
-- **Pace targets**: What speed or power output is the athlete attempting?
-- **Segment focus**: Which portion of the race curve is the training target?
-- **Entry state**: What metabolic and kinematic context does the athlete enter the effort from?
-- **Duration and rest**: How long must the coordination solution be sustained? What recovery precedes the next attempt?
-- **Equipment and environment**: What external constraints shape available solutions?
+This suggests block boundaries must blur. Some race-pace or segment-specific work is needed even in phases emphasising development of other characteristics, because the coordination solution must be practiced at the intensity where it will be expressed. The sequencing question changes from "when do I develop each energy system" to "how do I configure constraints so the coordination-metabolic pairing develops together."
 
-These constraints define the coordination problem. The solution is the athlete's to find. This is classical ecological dynamics, applied to a cyclical sport context.
+Blocks might still have coherence as periods of shifting emphasis but not as discrete phases where physiology is developed first and skill treated as independent.
 
-### Responsive Over Predetermined Planning
+**Race segments as periodisation targets.** PoST periodises "information complexity", or the perceptual-cognitive challenge of the learning environment. For cyclical sports, the Double Helix framework proposes periodising by race segment. A race has metabolically grounded phase transitions that create distinct challenges, with trainable coordination solutions.
 
-The ecological dynamics critique of rigid periodisation—that adaptation is modulated by psycho-emotional factors, context, and individual history—applies equally to cyclical sports. The claim that "there is no optimised pre-determinable planning path, only the informed exploration of a dynamically changing landscape" is correct.
+Start segments (for shorter races) present a coordination problem of aggressive force application with high accuracy. Finishing segments require maintaining functional output as degrees of freedom collapse under severe metabolic constraint. Longer events involve reading internal state against external progress.
 
-Progression should be guided by observed athlete response: movement consistency, output relative to expectation, signs of coordination breakdown or consolidation. Calendar-based phase transitions make little sense when athlete trajectories are highly variable.
+**The co-evolution problem.** Skill adaptation occurs faster than physiological adaptation. As the metabolic profile shifts across a block, the coordination solution that was optimal last week may no longer be optimal. Physiological adaptations have timescales of weeks; coordination can update within days.
 
-In the Double Helix framework, this becomes: observe how the joint product is evolving and adjust constraints accordingly. If the coordination solution is tracking the changing metabolic substrate effectively, maintain the current configuration. If performance deviates from expectation, investigate and intervene.
+During a phase of training, the metabolic substrate shifts continuously. The coordination solution must repeatedly re-adapt to exploit the expanding capacity; it is never "solved" because the substrate keeps changing.
 
-### Non-Linear Progression as Normal
+## Open Questions
 
-PoST's explicit accommodation of movement "back and forth between skill training stages" transfers directly. In the Double Helix framework, an athlete might return to earlier segment work after a block focused on a different segment—not because they've regressed, but because the changed metabolic profile creates new coordination problems in previously-trained segments.
+The framework provides conceptual structure but not validated protocols.
 
-This is actually more naturally non-linear than PoST's stage model. Skill and metabolic development don't progress in lockstep; the skill must constantly track a moving target. What was a stable coordination solution last month may need updating after a conditioning block changes the underlying substrate.
+**Segment targeting.** How do we determine which race segments act as the target for a given phase of training?
 
-### The Coach as Constraint Manipulator
+**Diagnostic development.** What triangulation of measures identifies limiters across segment types and phases?
 
-Ecological dynamics positions the coach as a designer of learning environments rather than an instructor of technique. This survives fully:
+**Coordination stability.** What markers indicate the coordination solution needs updating versus being appropriately stable?
 
-> "Observe outputs, manipulate inputs, treat the interior as a productive black box."
+**Physiological considerations.** How do we address the physiological demands that underpin typical periodisation models—recovery, fatigue management, taper—within a framework that denies clean separation?
 
-The coach cannot directly install a coordination solution or manipulate metabolic pathways. They can only configure constraints and let the system self-organise in response. The interior is the athlete's business; the constraints are the coach's.
+**Transfer and integration.** Does segment-specific training transfer to integrated race performance, or does the integration itself require practice?
 
-This doesn't require ignorance of mechanism—understanding what's happening inside provides hypotheses and guides constraint selection. But it removes dependence on mechanistic knowledge to act. You can coach effectively without solving the full measurement problem.
-
-## What Changes: Extending the Framework for Cyclical Sports
-
-### Block Logic Grounded in Physiology
-
-Ecological dynamics researchers critique traditional periodisation's reliance on Selye's General Adaptation Syndrome, and the critique has merit—adaptation is more complex and individually variable than simple stress-recovery models suggest. But acknowledging that predetermined planning has limits doesn't tell you what structure to use instead. "Informed exploration of a dynamically changing landscape" captures something true about coaching but leaves practitioners without operational guidance.
-
-The Double Helix framework preserves block logic by grounding it in what's actually happening. Blocks aren't arbitrary administrative divisions—they're periods where a particular metabolic profile is being developed, and therefore particular coordination solutions become available for exploration.
-
-**Aerobic Capacity Block**: The physiological work extends the aerobic runway. The skill exploration asks: given this expanding capacity, what coordination solutions allow me to navigate the middle segment more effectively? The block has coherence because the constraint landscape is shifting in a particular direction, and coordination must track that shift.
-
-**Glycolytic Capacity Block**: The physiological work expands the glycolytic reservoir and tolerance. The skill exploration asks: what coordination solutions remain viable when drawing deeply from this reservoir? This is finish-segment territory—learning what's possible when the system is depleted.
-
-**Race Preparation Block**: The segments developed in prior blocks must now integrate into a complete pace curve. The skill exploration asks: do segment-specific solutions compose into a coherent whole, or does the integration itself require practice?
-
-This sequencing isn't arbitrary convention—it reflects what coordination solutions become available as the metabolic profile shifts. You can't meaningfully explore finish-segment coordination until you have the glycolytic capacity that makes those solutions accessible.
-
-### Race Curve Segmentation as Periodisation Target
-
-PoST periodises "information complexity"—the perceptual-cognitive challenge of the learning environment. This makes sense for invasion sports where the coordination problem is primarily perceptual-cognitive.
-
-For cyclical sports, the Double Helix framework proposes periodising by **race segment**. A race is not a uniform coordination problem; it has physiologically grounded phase transitions that create distinct challenges:
-
-**Start Segment** (roughly 0-15 seconds in anaerobic events): System is metabolically fresh but mechanically cold. PCr system dominant. Coordination problem: aggressive force application with high accuracy. Margin for error is small because early mistakes compound through the race.
-
-**Middle Segment** (roughly 15 seconds to 2 minutes): The aerobic-anaerobic crossover zone. Coordination problem: reading internal state against external progress, modulating output, managing the transition between energy systems. This is where prospective control skill lives—action guided by anticipated future states.
-
-**Finish Segment** (final 30-60 seconds of anaerobic events): Coordination under severe metabolic constraint. The solution space has narrowed based on what remains. Coordination problem: maintaining functional output as degrees of freedom collapse. The system wants to simplify; the athlete fights for every stroke that approximates the intended pattern.
-
-Each segment presents a distinct coordination problem with distinct constraint configurations. Periodising by segment might be more specific and actionable than periodising by information complexity, because each segment has identifiable physiological underpinnings and trainable coordination solutions.
-
-### The Co-Evolution Problem
-
-Ecological dynamics acknowledges that skill adaptation occurs faster than physiological adaptation, but the periodisation frameworks don't grapple with what this means for planning.
-
-The Double Helix thesis makes this problem explicit: the skill must constantly track a moving target. As the metabolic profile shifts across a block, the coordination solution that was optimal last week may no longer be optimal. This isn't noise or regression—it's the fundamental training problem.
-
-Physiological adaptations have timescales of weeks; coordination can update within days. This creates an asymmetry. During an aerobic block, the metabolic substrate shifts continuously. The coordination solution must repeatedly re-adapt to exploit the expanding capacity. If the athlete just repeats what worked at the start of the block, they'll underutilise the developed capacity.
-
-This implies that skill exploration isn't a phase that precedes consolidation—it's ongoing. The coordination problem is never "solved" because the substrate keeps changing.
-
-## Toward a Coaching Stance: Speculative Extensions
-
-The previous sections rest on empirical evidence: fatigue reshapes coordination, economy cannot be partitioned, pacing requires metabolic experience, capacity is coordination-specific. The coupling is well-documented.
-
-What follows is more speculative—an attempt to translate the coupling thesis into practical coaching structure. These are hypotheses, not validated protocols. The ecological dynamics literature is honest about a similar gap in its own frameworks: "little guidance exists to help ecological designers decide what type of constraint to design-in, how long to leave a constraint in for, and when to manipulate, change or add-in extra constraints." This section inherits that limitation while attempting to provide direction.
-
-### The Core Stance
-
-The Double Helix framework converges with ecological dynamics on a fundamental coaching philosophy: **observe outputs, manipulate inputs, treat the interior as a productive black box.**
-
-The coach cannot directly install a coordination solution or manipulate metabolic pathways. They can only configure constraints and let the system self-organise in response. The interior is the athlete's business; the constraints are the coach's.
-
-But if the coupling thesis is correct, this stance requires modification in three ways:
-
-**1. Constraints must respect physiological structure.** You cannot configure arbitrary learning environments and expect self-organisation to produce functional solutions. The constraint configuration must align with the metabolic reality of the target performance. Block sequencing matters because it tunes the metabolic profile toward configurations where target coordination solutions become available.
-
-This suggests that traditional block logic—aerobic phases, glycolytic phases, race preparation—isn't arbitrary convention but reflects something real about when different coordination solutions become explorable. The aerobic block doesn't just build "fitness"; it shifts the constraint landscape so that middle-segment coordination solutions become available for exploration.
-
-**2. Observable outputs do double duty.** In invasion sports, skill and conditioning produce somewhat separable outputs. In cyclical sports, every performance measure is a joint product of both strands. The race simulation doesn't assess skill *or* fitness—it assesses the pairing. If the output is right, the co-evolution is working. If not, further performance observation (under varied constraints) reveals what needs attention.
-
-This connects to the identifiability problem I discussed in my [previous post on statistical periodisation models](/posts/periodisation-statistical-modelling). The FFM fails to identify fitness and fatigue separately because performance data doesn't contain separable information about them. The coaching implication: stop trying to diagnose "is this a fitness problem or a technique problem?" and instead ask "what constraint manipulation might shift the joint product in the right direction?"
-
-**3. Performance deviation from expectation is the primary diagnostic signal.** When observed performance matches expected trajectory, maintain the current configuration. When it deviates, investigate—not by measuring internal states, but by observing performance under different constraint configurations to triangulate what's limiting.
-
-### Example: The Critical Power Diagnostic
-
-To make this concrete, consider a hypothetical diagnostic for finish-segment training.
-
-Critical power represents the ceiling of sustainable aerobic output. In a well-executed race, the finish segment should be limited by accumulated metabolic fatigue, but the coordination solution should still allow output at or near CP.
-
-- **If finish segment output ≥ CP**: The coordination solution appears robust enough to express available capacity under race-accumulated fatigue. The system may be limited by metabolic capacity rather than coordination breakdown.
-- **If finish segment output < CP**: Something may be breaking down beyond metabolic limitation. The athlete *should* be able to produce CP—the capacity exists when tested fresh—but can't in this context. This might flag a segment-integration problem or a coordination deficit specific to race-accumulated fatigue.
-
-This is speculative. It assumes CP measured fresh is a valid reference for post-race-fatigue comparison, which may not hold. It doesn't distinguish "couldn't produce CP" from "chose not to" (a pacing decision). And it doesn't address what to do when coordination quality degrades but output remains above CP.
-
-But it illustrates the kind of diagnostic the framework might generate: an observable, testable criterion that doesn't require decomposing skill and fitness internally, but instead uses performance under varied constraints to infer what's limiting. Whether this particular diagnostic works is an empirical question. The principle—using constraint variation to triangulate limiters—seems sound even if specific implementations need development.
-
-### What Remains Unresolved
-
-The framework provides conceptual structure but not validated protocols. Key questions remain:
-
-**Segment maintenance frequency**: How often must each segment be revisited to maintain the coordination solution? Skill adaptation timescales (days) suggest relatively frequent, but the physiological cost of authentic segment work limits volume.
-
-**Transfer**: Does segment-specific training transfer to integrated race performance, or does the integration itself require substantial practice? The answer likely varies by athlete and developmental stage.
-
-**Diagnostic development**: Beyond the CP example, what triangulation of measures identifies limiters across segment types and block phases? This is where longitudinal data collection could inform future iterations.
-
-**Co-evolution tracking**: What markers indicate the coordination solution needs updating versus being appropriately stable? This may require observing performance under standardised constraint configurations over time—essentially, repeated diagnostic tests that reveal whether the skill is tracking the changing substrate.
+**Measurement.** If skill and metabolic capacity can't be separately assessed, what should we actually measure?
 
 ## Conclusion
 
-Ecological dynamics has transformed skill periodisation into something traditional coaches might barely recognise. The field's frameworks represent genuine progress: periodise constraints rather than techniques, expect non-linear progression, respond to athlete observations rather than calendar phases.
+Ecological dynamics has transformed skill periodisation: periodise constraints rather than techniques, expect non-linear progression, respond to athlete observations rather than calendar phases. But these frameworks were built for invasion sports where skill and metabolic capacity are loosely coupled.
 
-But these frameworks were built for invasion sports where skill and metabolic capacity are loosely coupled. Cyclical sports present a tighter coupling that the evidence strongly supports: fatigue systematically reshapes coordination, economy cannot be partitioned into technique versus physiology, pacing requires metabolic experience to develop, and physiological capacity is bound to coordination context.
+The Double Helix framework proposes extending ecological dynamics to cyclical sports, where the coupling is tight. It preserves constraint manipulation as the coaching method and responsive planning as the macro-structure. It proposes that race segments provide actionable periodisation targets, and that the co-evolution of skill and metabolism is the central problem rather than a complication.
 
-The Double Helix framework attempts to extend ecological dynamics to this domain. It preserves constraint manipulation as the coaching method and responsive planning as the macro-structure. It proposes that block logic might be grounded in physiological structure, that race segments might provide more actionable periodisation targets than information complexity, and that the co-evolution of skill and metabolism is the central problem rather than a complication.
-
-Much of this remains hypothetical. Longitudinal evidence is essentially absent from both the ecological dynamics literature and this extension of it. The practical challenge is significant: implementation requires theoretical understanding that goes beyond traditional periodisation knowledge, and the operational tools for responsive decision-making need development.
-
-What the framework offers is a conceptual structure that may actually match the problem. Cyclical sport performance is a joint product of coordination and metabolic capacity. Training is the configuration of constraints under which that joint product co-evolves. The coach observes outputs, manipulates inputs, and trusts the system to self-organise—but within a structure that respects the physiological reality of what skilled cyclical performance actually requires.
-
-Whether this structure proves useful is an empirical question I'm attempting to answer with my own training and coaching.
+Much of this remains hypothetical. What the framework offers is a conceptual structure that may actually match the problem: cyclical sport performance is a joint product of coordination and metabolic capacity, and training is the configuration of constraints under which that joint product co-evolves.
 
 ---
 
-::: {.callout-note}
-## Tracked questions for further development
-
-- **Skill maintenance frequency**: How often must each segment be revisited to maintain the coordination solution?
-- **Transfer validation**: Does segment-specific training transfer to integrated race performance, or does integration itself require extensive practice?
-- **Diagnostic validation**: Does the CP diagnostic reliably identify when authentic representation is needed versus when artificial pre-fatigue suffices?
-- **Co-evolution tracking**: What markers indicate the coordination solution needs updating versus being appropriately stable?
-:::
-
----
-
-*Torri Callan is a data scientist with a PhD in statistics and a background in elite sport. [Read more about the author](/about.qmd).*
+*Torri Callan is a data scientist with a PhD in statistics and a background in elite sport. [Read more about the author](/about).*
 
 ## References
 
 Apte, S., Prigent, G., Stöggl, T., Martínez, A., Snyder, C., Gremeaux-Bader, V., & Aminian, K. (2021). Biomechanical response of the lower extremity to running-induced acute fatigue: A systematic review. *Frontiers in Physiology*, 12, 646042.
 
+Amann, M., Proctor, L. T., Sebranek, J. J., Pegelow, D. F., & Dempsey, J. A. (2009). Opioid-mediated muscle afferents inhibit central motor drive and limit peripheral muscle fatigue development in humans. *Journal of Physiology*, 587(1), 271–283.
+
+Araújo, D., & Davids, K. (2011). What exactly is acquired during skill acquisition? *Journal of Consciousness Studies*, 18(3–4), 7–23.
+
 Basset, F. A., & Boulay, M. R. (2000). Specificity of treadmill and cycle ergometer tests in triathletes, runners and cyclists. *European Journal of Applied Physiology*, 81(3), 214–221.
+
+Bernstein, N. A. (1967). *The Co-ordination and Regulation of Movements*. Pergamon Press.
 
 Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: A systematic review. *Sports Medicine*, 48(5), 1117–1149.
 
@@ -361,6 +245,10 @@ Collins, D., Carson, H. J., & MacNamara, Á. (2024). Hype, hope, and smoke and m
 Davids, K., Button, C., & Bennett, S. (2008). *Dynamics of Skill Acquisition: A Constraints-Led Approach*. Human Kinetics.
 
 Farrow, D., & Robertson, S. (2017). Development of a skill acquisition periodisation framework for high-performance sport. *Sports Medicine*, 47(6), 1043–1054.
+
+Gibson, J. J. (1979). *The Ecological Approach to Visual Perception*. Houghton Mifflin.
+
+Hellard, P., Avalos, M., Lacoste, L., Barale, F., Chatard, J. C., & Millet, G. P. (2006). Assessing the limitations of the Banister model in monitoring training. *Journal of Sports Sciences*, 24(5), 509–520.
 
 Hughes, D. C., Ellefsen, S., & Baar, K. (2018). Adaptations to endurance and strength training. *Cold Spring Harbor Perspectives in Medicine*, 8(6), a029769.
 
@@ -384,6 +272,10 @@ Otte, F. W., Millar, S. K., & Klatt, S. (2019). Skill training periodization in 
 
 Puce, L., Marinelli, L., Mori, L., Girtler, N., Ferrando, S., Magioncalda, P., & Bragazzi, N. L. (2023). Impact of fatigue on stroke parameters in front crawl swimming: A longitudinal study. *Life*, 13(3), 716.
 
+Renshaw, I., Davids, K., Newcombe, D., & Roberts, W. (2019). The Constraints-Led Approach: Principles for Sports Coaching and Practice Design. *Routledge*.
+
 Racinais, S., Périard, J. D., Karlsen, A., & Nybo, L. (2015). Effect of heat and heat acclimatization on cycling time trial performance and pacing. *Medicine and Science in Sports and Exercise*, 47(3), 601–606.
+
+Saltin, B., Nazar, K., Costill, D. L., Stein, E., Jansson, E., Essén, B., & Gollnick, P. D. (1976). The nature of the training response: Peripheral and central adaptations to one-legged exercise. *Acta Physiologica Scandinavica*, 96(3), 289–305.
 
 Van Hooren, B., Sandbakk, Ø., & Helgerud, J. (2024). Running biomechanics explains only a minor part of the variation in running economy. *Sports Medicine*, 54(5), 1143–1153.
