@@ -3,14 +3,6 @@ title: ""
 pagetitle: "Torri Callan"
 toc: false
 page-layout: article
-listing:
-  id: recent-posts
-  contents: posts
-  sort: "date desc"
-  type: default
-  max-items: 3
-  fields: [date, title, description]
-  date-format: "MMMM YYYY"
 ---
 
 ::: {.landing-name}
@@ -18,15 +10,7 @@ Torri Callan
 :::
 
 ::: {.landing-tagline}
-I write about sports performance, training science, and the statistics that connect them.
+I'm a data scientist with a PhD in statistics and a background in elite sport. I write about sports performance, training science, and the statistics that connect them, under the brand Generative Periodisation.
 :::
 
-::: {.featured-posts}
-## Recent Writing
-
-::: {#recent-posts}
-:::
-
-:::
-
-[Get in touch](contact.qmd)
+[Read my writing](https://generativeperiodisation.substack.com) · [Get in touch](contact.qmd)

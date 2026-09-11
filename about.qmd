@@ -12,4 +12,4 @@ I'm also an athlete. I competed in sprint kayaking at an elite level for several
 
 These days I'm focused on sports performance analytics — particularly periodisation, load management, and single-subject methods. I'm interested in how athletes and coaches can use data without being buried by it, and how statistical thinking can sharpen intuition rather than replace it.
 
-This site is where I write about those ideas.
+I'm increasingly interested in working directly with coaches and performance scientists, and in building tools that sit at the intersection of statistical modelling and athlete development.
