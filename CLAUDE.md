@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal website for Torri Callan, a Senior Data Scientist focused on sports performance analytics. The site serves as a professional presence and hosts long-form writing on data science and sports periodisation.
+Personal website for Torri Callan, a Senior Data Scientist focused on sports performance analytics. The site is a lean professional landing page (Home, About, Contact). Long-form writing lives on Substack (Generative Periodisation, https://generativeperiodisation.substack.com); the homepage's main call to action links there.
 
 **Primary goal**: Establish credibility through thoughtful writing, not flashy design.
 
@@ -17,8 +17,8 @@ quarto preview
 # Render the site
 quarto render
 
-# Render a single post
-quarto render posts/periodisation-statistical-modelling.qmd
+# Render a single page
+quarto render about.qmd
 ```
 
 ## Site Structure
@@ -29,11 +29,12 @@ quarto render posts/periodisation-statistical-modelling.qmd
 ├── custom.scss          # Theme (colors, typography)
 ├── styles.css           # Layout rules
 ├── index.qmd            # Landing page
-├── writing.qmd          # Blog listing
 ├── about.qmd            # About page
 ├── contact.qmd          # Contact page
-└── posts/               # Blog posts
+└── posts/               # Archive of old posts (NOT rendered)
 ```
+
+Only the pages listed under `project.render` in `_quarto.yml` are built. `posts/` is kept as an archive and is deliberately excluded; don't add it back or create a Writing page.
 
 ## Design Specifications
 
@@ -54,9 +55,10 @@ quarto render posts/periodisation-statistical-modelling.qmd
 
 ### Layout
 
-- **Article width**: 700px max
-- **Wide figures**: 950px max (for visualisations)
-- **Navigation**: Minimal horizontal (Home | Writing | About | Contact)
+- **Article width**: 700px max (set via `format.html.grid.body-width` in `_quarto.yml`)
+- **Navigation**: Minimal horizontal (Home | About | Contact), with the name as the navbar brand
+- **Links**: terracotta with a faint stone-light underline that darkens on hover
+- **Palette variables**: defined at the top of `custom.scss`; use them rather than raw hex values
 
 ### Design Principles
 
@@ -64,21 +66,6 @@ quarto render posts/periodisation-statistical-modelling.qmd
 - Generous whitespace
 - No gradients, drop shadows, stock photography, or clever animations
 - No sidebar clutter, category clouds, or prominent social icons
-
-## Blog Post Template
-
-```markdown
----
-title: "Post Title"
-author: "Torri Callan"
-date: YYYY-MM-DD
-categories: [category1, category2]
-description: "One or two sentence description for the listing page."
-draft: false
----
-
-Content here...
-```
 
 ## Notes for Claude Code
 

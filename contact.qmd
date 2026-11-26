@@ -1,7 +1,5 @@
 ---
 title: "Contact"
-toc: false
-page-layout: article
 ---
 
 The best way to reach me is by email.

@@ -1,7 +1,5 @@
 ---
 title: "About"
-toc: false
-page-layout: article
 ---
 
 I'm a data scientist with a PhD in statistics and a background in elite sport.

@@ -1,11 +1,20 @@
 project:
   type: website
   output-dir: _site
+  # Only the landing pages are published. Writing lives on Substack;
+  # posts/ is kept as an archive and deliberately not rendered.
+  render:
+    - index.qmd
+    - about.qmd
+    - contact.qmd
 
 website:
-  title: ""
+  title: "Torri Callan"
+  description: "Data scientist with a PhD in statistics and a background in elite sport, writing about sports performance and training science."
   site-url: https://torricallan.com.au
   favicon: favicon.svg
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd
@@ -22,9 +31,7 @@ format:
     theme:
       light: custom.scss
     css: styles.css
-    toc: true
-    toc-depth: 3
-    code-fold: true
-    code-tools: false
-    highlight-style: github
-    html-math-method: katex
+    toc: false
+    page-layout: article
+    grid:
+      body-width: 700px
