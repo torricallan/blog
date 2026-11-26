@@ -9,12 +9,22 @@ twitter-card:
 
 ::: {.landing}
 
+::: {.landing-header}
+
+![](images/profile.jpg){.profile-photo fig-alt="Photo of Torri Callan"}
+
+::: {.landing-intro}
+
 ::: {.landing-name}
 Torri Callan
 :::
 
 ::: {.landing-tagline}
 I'm a data scientist with a PhD in statistics and a background in elite sport.
+:::
+
+:::
+
 :::
 
 ::: {.landing-lead}
@@ -27,4 +37,10 @@ I write about sports performance, training science, and the statistics that conn
 Or [get in touch](contact.qmd).
 :::
 
+:::
+
+::: {.action-shots}
+![](images/surf-ski.jpg){fig-alt="Surf ski racers paddling out through the break"}
+
+![](images/sprint-kayak.jpg){fig-alt="Torri Callan racing a sprint kayak"}
 :::
