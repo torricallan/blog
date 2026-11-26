@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal website for Torri Callan, a Senior Data Scientist focused on sports performance analytics. The site is a lean professional landing page (Home, Generative Periodisation, Contact). Long-form writing lives on Substack (Generative Periodisation, https://generativeperiodisation.substack.com); the homepage's main call to action links there, and the Generative Periodisation tab (`writing.qmd`) uses copy from the Substack About page plus a short hand-picked list of Substack posts (edited directly in `writing.qmd`). Keep the homepage clean: no post lists there.
+Personal website for Torri Callan, a Senior Data Scientist focused on sports performance analytics. The site is a lean professional landing page (Home, Generative Periodisation, Research, Contact). Long-form writing lives on Substack (Generative Periodisation, https://generativeperiodisation.substack.com); the homepage's main call to action links there, and the Generative Periodisation tab (`writing.qmd`) uses copy from the Substack About page plus a short hand-picked list of Substack posts (edited directly in `writing.qmd`). Keep the homepage clean: no post lists there.
 
 **Primary goal**: Establish credibility through thoughtful writing, not flashy design.
 
@@ -30,6 +30,7 @@ quarto render contact.qmd
 ├── styles.css           # Layout rules
 ├── index.qmd            # Landing page
 ├── writing.qmd          # Hand-picked links to Substack posts
+├── research.qmd         # PhD thesis, publications, Google Scholar link
 ├── contact.qmd          # Contact page
 └── posts/               # Archive of old posts (NOT rendered)
 ```
@@ -56,7 +57,7 @@ Only the pages listed under `project.render` in `_quarto.yml` are built. `posts/
 ### Layout
 
 - **Article width**: 700px max (set via `format.html.grid.body-width` in `_quarto.yml`)
-- **Navigation**: Minimal horizontal (Home | Generative Periodisation | Contact), with the name as the navbar brand
+- **Navigation**: Minimal horizontal (Home | Generative Periodisation | Research | Contact), with the name as the navbar brand
 - **Links**: terracotta with a faint stone-light underline that darkens on hover
 - **Palette variables**: defined at the top of `custom.scss`; use them rather than raw hex values
 

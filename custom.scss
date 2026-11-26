@@ -191,6 +191,26 @@ figcaption,
   }
 }
 
+// Research page citations
+.pub-list {
+  margin: 0.5rem 0 2rem;
+}
+
+.pub-item {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid $stone-light;
+  font-size: 1rem;
+  line-height: 1.6;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
 // Contact page
 .contact-email {
   font-size: 1.25rem;

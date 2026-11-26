@@ -6,6 +6,7 @@ project:
   render:
     - index.qmd
     - writing.qmd
+    - research.qmd
     - contact.qmd
 
 website:
@@ -21,6 +22,8 @@ website:
         text: Home
       - href: writing.qmd
         text: Generative Periodisation
+      - href: research.qmd
+        text: Research
       - href: contact.qmd
         text: Contact
   page-footer:

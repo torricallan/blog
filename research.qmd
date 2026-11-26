@@ -1,0 +1,38 @@
+---
+title: "Research"
+---
+
+## PhD thesis
+
+::: {.pub-list}
+
+::: {.pub-item}
+[Mathematical and statistical modelling of Sexually Transmitted Infections and their impacts on fertility](https://opus.lib.uts.edu.au/handle/10453/162786). University of Technology Sydney, 2021.
+:::
+
+:::
+
+## Publications
+
+<!-- Newest first. Bold marks my name. -->
+::: {.pub-list}
+
+::: {.pub-item}
+**Callan, T.**, Woodcock, S., & Huston, W. M. (2021). [Ascension of Chlamydia is moderated by uterine peristalsis and the neutrophil response to infection](https://doi.org/10.1371/journal.pcbi.1009365). *PLoS Computational Biology*.
+:::
+
+::: {.pub-item}
+Schofield-Georgeson, E., & **Callan, T.** (2020). Comparing silence rights in the Northern Territory and New South Wales. *Criminal Law Journal*, 44(2), 110–126.
+:::
+
+::: {.pub-item}
+**Callan, T.**, Debattista, J., Berry, B., Brown, J. J., Woodcock, S., Hocking, J. S., & Huston, W. M. (2020). [A retrospective cohort study examining STI testing and perinatal records demonstrates reproductive health burden of chlamydia and gonorrhea](https://doi.org/10.1093/femspd/ftaa052). *Pathogens and Disease*.
+:::
+
+::: {.pub-item}
+**Callan, T.**, & Woodcock, S. (2020). [Stochastic modelling of chlamydial infections](https://doi.org/10.21914/anziamj.v61i0.15159). *ANZIAM Journal*, 61, C89–C103.
+:::
+
+:::
+
+[Google Scholar profile →](https://scholar.google.com/citations?user=l3DoziIAAAAJ&hl=en){.cta-link}
