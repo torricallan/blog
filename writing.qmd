@@ -1,0 +1,32 @@
+---
+title: "Generative Periodisation"
+---
+
+Generative Periodisation is an ongoing research programme exploring a foundational way to building training plans. It combines Bayesian statistical modelling with ecological dynamics to ask how periodisation plans can be built from constraints, targets, and continuous feedback—adapting to the individual athlete without losing structural coherence.
+
+## Where to start
+
+<!-- Hand-picked Substack posts. Edit this list directly to change what's featured. -->
+::: {.post-list}
+
+::: {.post-item}
+[The Case for Data-Driven Periodisation](https://generativeperiodisation.substack.com/p/the-case-for-data-driven-periodisation)
+
+Why fixed templates and simple readiness trackers fall short, and how ecological dynamics and Bayesian modelling fit together.
+:::
+
+::: {.post-item}
+[Measurement as a feedback loop](https://generativeperiodisation.substack.com/p/measurement-as-a-feedback-loop)
+
+Measurement allows for periodisation plans to be continuously and coherently modified, making them natural complements and requirements of each other.
+:::
+
+::: {.post-item}
+[Estimating capability from sub-maximal efforts](https://generativeperiodisation.substack.com/p/estimating-capability-from-sub-maximal)
+
+Using Bayesian stochastic frontier analysis on real paddling data to separate a falling performance ceiling from execution variance.
+:::
+
+:::
+
+[All posts on Substack →](https://generativeperiodisation.substack.com/archive){.cta-link}

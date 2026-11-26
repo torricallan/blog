@@ -161,6 +161,36 @@ figcaption,
   margin-top: 0.75rem;
 }
 
+// Writing page list
+.post-list {
+  margin: 1.5rem 0 2rem;
+}
+
+.post-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid $stone-light;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  p:first-child a {
+    font-family: $font-family-sans-serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+
+  p + p {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    color: $stone-grey;
+  }
+}
+
 // Contact page
 .contact-email {
   font-size: 1.25rem;

@@ -5,6 +5,7 @@ project:
   # posts/ is kept as an archive and deliberately not rendered.
   render:
     - index.qmd
+    - writing.qmd
     - about.qmd
     - contact.qmd
 
@@ -19,6 +20,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: writing.qmd
+        text: Generative Periodisation
       - href: about.qmd
         text: About
       - href: contact.qmd
